@@ -1,16 +1,16 @@
 ---
 name: Blockchain Info
 x-slug: blockchain-info
-description: "With the largest bitcoin wallet platform in the world, Blockchain\u2019s
+description: With the largest bitcoin wallet platform in the world, Blockchain???s
   software has powered over 100M transactions and empowered users in 130 countries
   across the globe to transact quickly and without costly intermediaries. We also
-  offers tools for develo..."
+  offers tools for develo...
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28138-blockchain-info.jpg
 x-kinRank: "8"
 x-alexaRank: "842"
 tags: Addresses
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-17"
+modified: "2018-06-17"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/blockchain-info/apis.md
 specificationVersion: "0.14"
 apis:
@@ -40,10 +40,10 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/blockchain-info/multiaddr-get-openapi.md
 - name: Blockchain Info
   x-api-slug: blockchain-info
-  description: "With the largest bitcoin wallet platform in the world, Blockchain\u2019s
+  description: With the largest bitcoin wallet platform in the world, Blockchain???s
     software has powered over 100M transactions and empowered users in 130 countries
     across the globe to transact quickly and without costly intermediaries. We also
-    offers tools for develo..."
+    offers tools for develo...
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28138-blockchain-info.jpg
   humanURL: https://blockchain.info
   baseURL: https://blockchain.info/

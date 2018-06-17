@@ -1,16 +1,14 @@
 ---
 name: PayPal
 x-slug: paypal
-description: PayPal is an online payments and money transfer service that allows you
-  to send money via email, phone, text message or Skype. They offer products to both
-  individuals and businesses alike, including online vendors, auction sites and corporate
-  users. PayPal connects effortlessly to bank accounts and credit cards.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
+description: PayPal is the faster, safer way to send money, make an online payment,
+  receive money or set up a merchant account.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "71"
 tags: Addresses
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-17"
+modified: "2018-06-17"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/paypal/apis.md
 specificationVersion: "0.14"
 apis:
@@ -21,7 +19,7 @@ apis:
     the account holder whose shipping address you want to obtain, or be the primary
     receiver of the payment or one of the parallel receivers of the payment. The shipping
     address is available only if it was provided during the embedded payment flow.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com////AdaptivePayments/GetShippingAddresses
   tags: Payments,Addresses
@@ -30,12 +28,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/paypal/adaptivepaymentsgetshippingaddresses-post-openapi.md
 - name: Paypal
   x-api-slug: paypal
-  description: PayPal is an online payments and money transfer service that allows
-    you to send money via email, phone, text message or Skype. They offer products
-    to both individuals and businesses alike, including online vendors, auction sites
-    and corporate users. PayPal connects effortlessly to bank accounts and credit
-    cards.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
+  description: PayPal is the faster, safer way to send money, make an online payment,
+    receive money or set up a merchant account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com//
   tags: Addresses
@@ -45,6 +40,8 @@ apis:
 x-common:
 - type: x-base-url
   url: https://api.paypal.com
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/paypal
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/paypal
 - type: x-developer

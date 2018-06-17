@@ -33,6 +33,8 @@ paths:
         200:
           description: OK
       tags:
+      - Associate
+      - Elastic
       - IP Addresses
   /?Action=DeregisterElasticIp:
     get:
@@ -49,6 +51,8 @@ paths:
         200:
           description: OK
       tags:
+      - Deregister
+      - Elastic
       - IP Addresses
 x-streamrank:
   polling_total_time_average: 0

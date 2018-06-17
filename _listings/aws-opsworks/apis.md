@@ -8,10 +8,10 @@ description: AWS OpsWorks is a configuration management service that uses Chef, 
   OpsWorks has two offerings, AWS Opsworks for Chef Automate, and AWS OpsWorks Stacks.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Addresses
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-17"
+modified: "2018-06-17"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-opsworks/apis.md
 specificationVersion: "0.14"
 apis:
@@ -22,7 +22,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=AssociateElasticIp
-  tags: IP Addresses
+  tags: Associate,Elastic,IP Addresses
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-opsworks/actionassociateelasticip-get-openapi.md
@@ -32,7 +32,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=DeregisterElasticIp
-  tags: IP Addresses
+  tags: Deregister,Elastic,IP Addresses
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-opsworks/actionderegisterelasticip-get-openapi.md
@@ -42,40 +42,10 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: ://///?Action=DescribeElasticIps
-  tags: IP Addresses
+  tags: Describes,Elastic,IP Addressess
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-opsworks/actiondescribeelasticips-get-openapi.md
-- name: AWS OpsWorks API Disassociate Elastic Ip
-  x-api-slug: aws-opsworks-api
-  description: Disassociates an Elastic IP address from its instance.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
-  humanURL: https://aws.amazon.com/opsworks/
-  baseURL: ://///?Action=DisassociateElasticIp
-  tags: IP Addresses
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-opsworks/actiondisassociateelasticip-get-openapi.md
-- name: AWS OpsWorks API Register Elastic Ip
-  x-api-slug: aws-opsworks-api
-  description: Registers an Elastic IP address with a specified stack.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
-  humanURL: https://aws.amazon.com/opsworks/
-  baseURL: ://///?Action=RegisterElasticIp
-  tags: IP Addresses
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-opsworks/actionregisterelasticip-get-openapi.md
-- name: AWS OpsWorks API Update Elastic Ip
-  x-api-slug: aws-opsworks-api
-  description: Updates a registered Elastic IP address's name.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
-  humanURL: https://aws.amazon.com/opsworks/
-  baseURL: ://///?Action=UpdateElasticIp
-  tags: IP Addresses
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-opsworks/actionupdateelasticip-get-openapi.md
 - name: AWS OpsWorks API
   x-api-slug: aws-opsworks-api
   description: AWS OpsWorks is a configuration management service that uses Chef,
