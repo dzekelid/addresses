@@ -24,49 +24,173 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Addresses
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-24"
+modified: "2018-08-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-snowball/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS Snowball API Create Address
+- name: AWS Snowball API
   x-api-slug: aws-snowball-api
-  description: Creates an address for a Snowball to be shipped to.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSImportExportSnowball.png
   humanURL: https://aws.amazon.com/snowball/
-  baseURL: ://///?Action=CreateAddress
-  tags: Addresses
+  baseURL: :///
+  tags: Amazon Web Services, Data, Security, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
+    API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-snowball/actioncreateaddress-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-snowball/actioncreateaddress-get-openapi.md
-- name: AWS Snowball API Describe Address
+- name: AWS Snowball API
   x-api-slug: aws-snowball-api
-  description: |-
-    Takes an AddressId and returns specific details about that address in the
-          form of an Address object.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSImportExportSnowball.png
   humanURL: https://aws.amazon.com/snowball/
-  baseURL: ://///?Action=DescribeAddress
-  tags: Addresses
+  baseURL: :///
+  tags: Amazon Web Services, Data, Security, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
+    API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-snowball/actioncreateaddress-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-snowball/actioncreateaddress-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-snowball/actiondescribeaddress-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-snowball/actiondescribeaddress-get-openapi.md
-- name: AWS Snowball API Describe Addresses
+- name: AWS Snowball API
   x-api-slug: aws-snowball-api
-  description: Returns a specified number of ADDRESS objects.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSImportExportSnowball.png
   humanURL: https://aws.amazon.com/snowball/
-  baseURL: ://///?Action=DescribeAddresses
-  tags: Addresses
+  baseURL: :///
+  tags: Amazon Web Services, Data, Security, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
+    API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-snowball/actioncreateaddress-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-snowball/actioncreateaddress-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-snowball/actiondescribeaddress-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-snowball/actiondescribeaddress-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-snowball/actiondescribeaddresses-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-snowball/actiondescribeaddresses-get-openapi.md
+- name: AWS Snowball API
+  x-api-slug: aws-snowball-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSImportExportSnowball.png
+  humanURL: https://aws.amazon.com/snowball/
+  baseURL: :///
+  tags: Amazon Web Services, Data, Security, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-snowball/actioncreateaddress-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-snowball/actioncreateaddress-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-snowball/actiondescribeaddress-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-snowball/actiondescribeaddress-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-snowball/actiondescribeaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-snowball/actiondescribeaddresses-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-snowball/actioncreateaddress-get-openapi.md
+- name: AWS Snowball API
+  x-api-slug: aws-snowball-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSImportExportSnowball.png
+  humanURL: https://aws.amazon.com/snowball/
+  baseURL: :///
+  tags: Amazon Web Services, Data, Security, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-snowball/actioncreateaddress-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-snowball/actioncreateaddress-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-snowball/actiondescribeaddress-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-snowball/actiondescribeaddress-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-snowball/actiondescribeaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-snowball/actiondescribeaddresses-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-snowball/actioncreateaddress-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-snowball/actiondescribeaddress-get-openapi.md
+- name: AWS Snowball API
+  x-api-slug: aws-snowball-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSImportExportSnowball.png
+  humanURL: https://aws.amazon.com/snowball/
+  baseURL: :///
+  tags: Amazon Web Services, Data, Security, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-snowball/actioncreateaddress-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-snowball/actioncreateaddress-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-snowball/actiondescribeaddress-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-snowball/actiondescribeaddress-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-snowball/actiondescribeaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-snowball/actiondescribeaddresses-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-snowball/actioncreateaddress-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-snowball/actiondescribeaddress-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-snowball/actiondescribeaddresses-get-openapi.md
+- name: AWS Snowball API
+  x-api-slug: aws-snowball-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSImportExportSnowball.png
+  humanURL: https://aws.amazon.com/snowball/
+  baseURL: :///
+  tags: Amazon Web Services, Data, Security, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Databases, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-snowball/actioncreateaddress-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-snowball/actioncreateaddress-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-snowball/actiondescribeaddress-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-snowball/actiondescribeaddress-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-snowball/actiondescribeaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-snowball/actiondescribeaddresses-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-snowball/actioncreateaddress-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-snowball/actiondescribeaddress-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-snowball/actiondescribeaddresses-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-snowball/actiondescribeaddress-get-openapi.md
 - name: AWS Snowball API
   x-api-slug: aws-snowball-api
   description: Snowball is a petabyte-scale data transport solution that uses secure
@@ -97,6 +221,10 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-snowball/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://aws.simple.queue.service.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.snowball.stack.network
 - type: x-documentation
   url: http://docs.aws.amazon.com/snowball/latest/api-reference/api-reference.html
 - type: x-faq

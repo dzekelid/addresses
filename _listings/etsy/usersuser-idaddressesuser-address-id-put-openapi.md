@@ -115,6 +115,24 @@ paths:
       - Addresses
       - User
       - Address
+    delete:
+      summary: Delete Users User Addresses User Address
+      description: Deletes the UserAddress with the given id.
+      operationId: deleteUsersUserAddressesUserAddress
+      x-api-path-slug: usersuser-idaddressesuser-address-id-delete
+      parameters:
+      - in: path
+        name: user_address_id
+      - in: path
+        name: user_id
+      responses:
+        200:
+          description: OK
+      tags:
+      - Users
+      - Addresses
+      - User
+      - Address
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

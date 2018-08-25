@@ -51,6 +51,50 @@ paths:
       - Accounts
       - Email
       - Addresses
+  /accounts/{id}/email_addresses/{email}:
+    post:
+      summary: Post Accounts Email Addresses Email
+      description: Makes this email address the primary one for the account.
+      operationId: Create_setAccountEmailAddressAsPrimary_
+      x-api-path-slug: accountsidemail-addressesemail-post
+      parameters:
+      - in: path
+        name: email
+        description: One of the email addresses associated to the account
+      - in: path
+        name: id
+        description: Unique id of an account accessible through your API key
+      - in: query
+        name: primary
+        description: Set to 1 to make this email address the primary one for the account
+      responses:
+        200:
+          description: OK
+      tags:
+      - Accounts
+      - Email
+      - Addresses
+      - Email
+    delete:
+      summary: Delete Accounts Email Addresses Email
+      description: Removes an email address form the aliases of an account.
+      operationId: removeAccountEmailAddress_
+      x-api-path-slug: accountsidemail-addressesemail-delete
+      parameters:
+      - in: path
+        name: email
+        description: One of the email addresses associated to the account
+      - in: path
+        name: id
+        description: Unique id of an account accessible through your API key
+      responses:
+        200:
+          description: OK
+      tags:
+      - Accounts
+      - Email
+      - Addresses
+      - Email
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

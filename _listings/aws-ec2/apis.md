@@ -16,23 +16,779 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Addresses
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-24"
+modified: "2018-08-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS EC2 API Unassign Ipv6 Addresses
+- name: AWS EC2 API
   x-api-slug: aws-ec2-api
-  description: Unassigns one or more IPv6 addresses from a network interface.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
   humanURL: https://aws.amazon.com/ec2/
-  baseURL: ://///?Action=UnassignIpv6Addresses
-  tags: IPv6 Addresses
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignipv6addresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignipv6addresses-get-openapi.md
+- name: AWS EC2 API
+  x-api-slug: aws-ec2-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignipv6addresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignipv6addresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignprivateipaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignprivateipaddresses-get-openapi.md
+- name: AWS EC2 API
+  x-api-slug: aws-ec2-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignipv6addresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignipv6addresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignprivateipaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignprivateipaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribeaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribeaddresses-get-openapi.md
+- name: AWS EC2 API
+  x-api-slug: aws-ec2-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignipv6addresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignipv6addresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignprivateipaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignprivateipaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribeaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribeaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribemovingaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribemovingaddresses-get-openapi.md
+- name: AWS EC2 API
+  x-api-slug: aws-ec2-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignipv6addresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignipv6addresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignprivateipaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignprivateipaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribeaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribeaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribemovingaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribemovingaddresses-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignipv6addresses-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignipv6addresses-get-openapi.md
+- name: AWS EC2 API
+  x-api-slug: aws-ec2-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignipv6addresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignipv6addresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignprivateipaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignprivateipaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribeaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribeaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribemovingaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribemovingaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignipv6addresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignipv6addresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignprivateipaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignprivateipaddresses-get-openapi.md
+- name: AWS EC2 API
+  x-api-slug: aws-ec2-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignipv6addresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignipv6addresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignprivateipaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignprivateipaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribeaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribeaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribemovingaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribemovingaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignipv6addresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignipv6addresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignprivateipaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignprivateipaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionallocateaddress-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionallocateaddress-get-openapi.md
+- name: AWS EC2 API
+  x-api-slug: aws-ec2-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignipv6addresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignipv6addresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignprivateipaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignprivateipaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribeaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribeaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribemovingaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribemovingaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignipv6addresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignipv6addresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignprivateipaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignprivateipaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionallocateaddress-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionallocateaddress-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignipv6addresses-get-openapi.md
+- name: AWS EC2 API
+  x-api-slug: aws-ec2-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignipv6addresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignipv6addresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignprivateipaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignprivateipaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribeaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribeaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribemovingaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribemovingaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignipv6addresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignipv6addresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignprivateipaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignprivateipaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionallocateaddress-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionallocateaddress-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignipv6addresses-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignprivateipaddresses-get-openapi.md
+- name: AWS EC2 API
+  x-api-slug: aws-ec2-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignipv6addresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignipv6addresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignprivateipaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignprivateipaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribeaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribeaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribemovingaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribemovingaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignipv6addresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignipv6addresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignprivateipaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignprivateipaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionallocateaddress-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionallocateaddress-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignipv6addresses-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignprivateipaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassociateaddress-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassociateaddress-get-openapi.md
+- name: AWS EC2 API
+  x-api-slug: aws-ec2-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignipv6addresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignipv6addresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignprivateipaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignprivateipaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribeaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribeaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribemovingaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribemovingaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignipv6addresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignipv6addresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignprivateipaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignprivateipaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionallocateaddress-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionallocateaddress-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignipv6addresses-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignprivateipaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassociateaddress-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassociateaddress-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribeaddresses-get-openapi.md
+- name: AWS EC2 API
+  x-api-slug: aws-ec2-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignipv6addresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignipv6addresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignprivateipaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignprivateipaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribeaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribeaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribemovingaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribemovingaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignipv6addresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignipv6addresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignprivateipaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignprivateipaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionallocateaddress-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionallocateaddress-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignipv6addresses-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignprivateipaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassociateaddress-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassociateaddress-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribeaddresses-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribemovingaddresses-get-openapi.md
+- name: AWS EC2 API
+  x-api-slug: aws-ec2-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignipv6addresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignipv6addresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignprivateipaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignprivateipaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribeaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribeaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribemovingaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribemovingaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignipv6addresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignipv6addresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignprivateipaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignprivateipaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionallocateaddress-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionallocateaddress-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignipv6addresses-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignprivateipaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassociateaddress-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassociateaddress-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribeaddresses-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribemovingaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondisassociateaddress-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondisassociateaddress-get-openapi.md
+- name: AWS EC2 API
+  x-api-slug: aws-ec2-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignipv6addresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignipv6addresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignprivateipaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignprivateipaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribeaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribeaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribemovingaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribemovingaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignipv6addresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignipv6addresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignprivateipaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignprivateipaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionallocateaddress-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionallocateaddress-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignipv6addresses-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignprivateipaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassociateaddress-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassociateaddress-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribeaddresses-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribemovingaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondisassociateaddress-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondisassociateaddress-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionmoveaddresstovpc-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionmoveaddresstovpc-get-openapi.md
+- name: AWS EC2 API
+  x-api-slug: aws-ec2-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignipv6addresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignipv6addresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignprivateipaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignprivateipaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribeaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribeaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribemovingaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribemovingaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignipv6addresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignipv6addresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignprivateipaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignprivateipaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionallocateaddress-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionallocateaddress-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignipv6addresses-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignprivateipaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassociateaddress-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassociateaddress-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribeaddresses-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribemovingaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondisassociateaddress-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondisassociateaddress-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionmoveaddresstovpc-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionmoveaddresstovpc-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionreleaseaddress-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionreleaseaddress-get-openapi.md
+- name: AWS EC2 API
+  x-api-slug: aws-ec2-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignipv6addresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignipv6addresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignprivateipaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignprivateipaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribeaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribeaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribemovingaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribemovingaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignipv6addresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignipv6addresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignprivateipaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignprivateipaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionallocateaddress-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionallocateaddress-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignipv6addresses-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignprivateipaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassociateaddress-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassociateaddress-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribeaddresses-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribemovingaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondisassociateaddress-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondisassociateaddress-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionmoveaddresstovpc-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionmoveaddresstovpc-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionreleaseaddress-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionreleaseaddress-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionrestoreaddresstoclassic-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionrestoreaddresstoclassic-get-openapi.md
+- name: AWS EC2 API
+  x-api-slug: aws-ec2-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignipv6addresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignipv6addresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignprivateipaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignprivateipaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribeaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribeaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribemovingaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribemovingaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignipv6addresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignipv6addresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignprivateipaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignprivateipaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionallocateaddress-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionallocateaddress-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignipv6addresses-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignprivateipaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassociateaddress-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassociateaddress-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribeaddresses-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribemovingaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondisassociateaddress-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondisassociateaddress-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionmoveaddresstovpc-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionmoveaddresstovpc-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionreleaseaddress-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionreleaseaddress-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionrestoreaddresstoclassic-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionrestoreaddresstoclassic-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignipv6addresses-get-openapi.md
+- name: AWS EC2 API
+  x-api-slug: aws-ec2-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignipv6addresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignipv6addresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignprivateipaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignprivateipaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribeaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribeaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribemovingaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribemovingaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignipv6addresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignipv6addresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignprivateipaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignprivateipaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionallocateaddress-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionallocateaddress-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignipv6addresses-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassignprivateipaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassociateaddress-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionassociateaddress-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribeaddresses-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondescribemovingaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondisassociateaddress-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actiondisassociateaddress-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionmoveaddresstovpc-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionmoveaddresstovpc-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionreleaseaddress-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionreleaseaddress-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionrestoreaddresstoclassic-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionrestoreaddresstoclassic-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignipv6addresses-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/actionunassignprivateipaddresses-get-openapi.md
 - name: AWS EC2 API
   x-api-slug: aws-ec2-api
   description: Amazon Elastic Compute Cloud is a web service that provides resizable
@@ -54,6 +810,10 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://aws.dynamodb.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.ec2.stack.network
 - type: x-code
   url: http://aws.amazon.com/code/Amazon-EC2/
 - type: x-documentation

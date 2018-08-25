@@ -13,6 +13,23 @@ produces:
 consumes:
 - application/json
 paths:
+  /?Action=ListVerifiedEmailAddresses:
+    get:
+      summary: List Verified Email Addresses
+      description: Returns a list containing all of the email addresses that have
+        been verified.
+      operationId: listVerifiedEmailAddresses
+      x-api-path-slug: actionlistverifiedemailaddresses-get
+      parameters:
+      - in: query
+        name: VerifiedEmailAddresses.member.N
+        description: A list of email addresses that have been verified
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Verified Email Addresses
   /?Action=DeleteVerifiedEmailAddress:
     get:
       summary: Delete Verified Email Address

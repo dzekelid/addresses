@@ -33,6 +33,42 @@ paths:
       - Applications
       - AppId
       - Addresses
+    get:
+      summary: Get Applications Appid Addresses
+      description: Get applications appid addresses.
+      operationId: getApplicationsAppAddresses
+      x-api-path-slug: applicationsappidaddresses-get
+      parameters:
+      - in: path
+        name: AppId
+      - in: query
+        name: applicationId
+      responses:
+        200:
+          description: OK
+      tags:
+      - Applications
+      - AppId
+      - Addresses
+    post:
+      summary: Post Applications Appid Addresses
+      description: Post applications appid addresses.
+      operationId: postApplicationsAppAddresses
+      x-api-path-slug: applicationsappidaddresses-post
+      parameters:
+      - in: path
+        name: AppId
+      - in: query
+        name: applicationId
+      - in: query
+        name: Content-Type
+      responses:
+        200:
+          description: OK
+      tags:
+      - Applications
+      - AppId
+      - Addresses
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

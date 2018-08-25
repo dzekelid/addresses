@@ -17,60 +17,208 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Addresses
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-24"
+modified: "2018-08-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/apis.md
 specificationVersion: "0.14"
 apis:
-- name: reverb Get My Addresses
+- name: Reverb
   x-api-slug: reverb
-  description: See all addresses in your address book
+  description: reverb
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png
   humanURL: https://helloreverb.com/app
-  baseURL: https://api.reverb.com//api//my/addresses
-  tags: My,Addresses
+  baseURL: https://api.reverb.com//api
+  tags: Dictionary, Spelling, API LIfeyclessss, Stack Network, Commerce, Relative
+    Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddresses-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddresses-get-openapi.md
-- name: reverb Post My Addresses
+- name: Reverb
   x-api-slug: reverb
-  description: Create a new address in your address book
+  description: reverb
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png
   humanURL: https://helloreverb.com/app
-  baseURL: https://api.reverb.com//api//my/addresses
-  tags: My,Addresses
+  baseURL: https://api.reverb.com//api
+  tags: Dictionary, Spelling, API LIfeyclessss, Stack Network, Commerce, Relative
+    Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddresses-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddresses-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddresses-post-openapi.md
-- name: reverb Delete My Addresses Address
+- name: Reverb
   x-api-slug: reverb
-  description: Delete an existing address in your address book
+  description: reverb
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png
   humanURL: https://helloreverb.com/app
-  baseURL: https://api.reverb.com//api//my/addresses/{address_id}
-  tags: My,Addresses,Address,Id
+  baseURL: https://api.reverb.com//api
+  tags: Dictionary, Spelling, API LIfeyclessss, Stack Network, Commerce, Relative
+    Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddresses-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddresses-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddressesaddress-id-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddressesaddress-id-delete-openapi.md
-- name: reverb Put My Addresses Address
+- name: Reverb
   x-api-slug: reverb
-  description: Update an existing address in your address book
+  description: reverb
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png
   humanURL: https://helloreverb.com/app
-  baseURL: https://api.reverb.com//api//my/addresses/{address_id}
-  tags: My,Addresses,Address,Id
+  baseURL: https://api.reverb.com//api
+  tags: Dictionary, Spelling, API LIfeyclessss, Stack Network, Commerce, Relative
+    Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddresses-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddresses-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddressesaddress-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddressesaddress-id-delete-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddressesaddress-id-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddressesaddress-id-put-openapi.md
-- name: reverb
+- name: Reverb
+  x-api-slug: reverb
+  description: reverb
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png
+  humanURL: https://helloreverb.com/app
+  baseURL: https://api.reverb.com//api
+  tags: Dictionary, Spelling, API LIfeyclessss, Stack Network, Commerce, Relative
+    Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddresses-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddresses-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddressesaddress-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddressesaddress-id-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddressesaddress-id-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddressesaddress-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddressesaddress-id-delete-openapi.md
+- name: Reverb
+  x-api-slug: reverb
+  description: reverb
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png
+  humanURL: https://helloreverb.com/app
+  baseURL: https://api.reverb.com//api
+  tags: Dictionary, Spelling, API LIfeyclessss, Stack Network, Commerce, Relative
+    Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddresses-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddresses-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddressesaddress-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddressesaddress-id-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddressesaddress-id-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddressesaddress-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddressesaddress-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddressesaddress-id-put-openapi.md
+- name: Reverb
+  x-api-slug: reverb
+  description: reverb
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png
+  humanURL: https://helloreverb.com/app
+  baseURL: https://api.reverb.com//api
+  tags: Dictionary, Spelling, API LIfeyclessss, Stack Network, Commerce, Relative
+    Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddresses-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddresses-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddressesaddress-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddressesaddress-id-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddressesaddress-id-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddressesaddress-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddressesaddress-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddressesaddress-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddressesaddress-id-delete-openapi.md
+- name: Reverb
+  x-api-slug: reverb
+  description: reverb
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png
+  humanURL: https://helloreverb.com/app
+  baseURL: https://api.reverb.com//api
+  tags: Dictionary, Spelling, API LIfeyclessss, Stack Network, Commerce, Relative
+    Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddresses-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddresses-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddressesaddress-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddressesaddress-id-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddressesaddress-id-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddressesaddress-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddressesaddress-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddressesaddress-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddressesaddress-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/myaddressesaddress-id-put-openapi.md
+- name: Reverb
   x-api-slug: reverb
   description: 'Reverb&#8217;s mission is to connect people with meaningful content.Reverb
     was created to find and connect the rich associations between words, ideas, content,
@@ -92,6 +240,10 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://respoke.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://reverb.stack.network
 - type: x-blog
   url: http://blog.helloreverb.com/
 - type: x-blog-rss
@@ -106,6 +258,8 @@ x-common:
   url: https://helloreverb.com/app
 - type: x-website
   url: http://reverb.com
+- type: x-website
+  url: https://reverb.com
 include: []
 maintainers:
 - FN: Kin Lane

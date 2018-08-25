@@ -49,6 +49,26 @@ paths:
           description: OK
       tags:
       - Addresses
+  /?Action=DescribeAddresses:
+    get:
+      summary: Describe Addresses
+      description: Returns a specified number of ADDRESS objects.
+      operationId: describeAddresses
+      x-api-path-slug: actiondescribeaddresses-get
+      parameters:
+      - in: query
+        name: MaxResults
+        description: The number of ADDRESS objects to return
+        type: string
+      - in: query
+        name: NextToken
+        description: HTTP requests are stateless
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Addresses
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

@@ -83,6 +83,56 @@ paths:
       - Addresses
       - User
       - Address
+    put:
+      summary: Put Users User Addresses User Address
+      description: Updates a UserAddress with the given id.
+      operationId: putUsersUserAddressesUserAddress
+      x-api-path-slug: usersuser-idaddressesuser-address-id-put
+      parameters:
+      - in: query
+        name: city
+      - in: query
+        name: country_id
+      - in: query
+        name: first_line
+      - in: query
+        name: name
+      - in: query
+        name: second_line
+      - in: query
+        name: state
+      - in: path
+        name: user_address_id
+      - in: path
+        name: user_id
+      - in: query
+        name: zip
+      responses:
+        200:
+          description: OK
+      tags:
+      - Users
+      - Addresses
+      - User
+      - Address
+    delete:
+      summary: Delete Users User Addresses User Address
+      description: Deletes the UserAddress with the given id.
+      operationId: deleteUsersUserAddressesUserAddress
+      x-api-path-slug: usersuser-idaddressesuser-address-id-delete
+      parameters:
+      - in: path
+        name: user_address_id
+      - in: path
+        name: user_id
+      responses:
+        200:
+          description: OK
+      tags:
+      - Users
+      - Addresses
+      - User
+      - Address
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

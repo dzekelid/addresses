@@ -9,44 +9,79 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Addresses
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-24"
+modified: "2018-08-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-simple-email-service/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS Simple Email Service API Delete Verified Email Address
+- name: AWS Simple Email Service API
   x-api-slug: aws-simple-email-service-api
-  description: Deletes the specified email address from the list of verified addresses.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonSES.png
   humanURL: https://aws.amazon.com/ses/
-  baseURL: ://///?Action=DeleteVerifiedEmailAddress
-  tags: Verified Email Addresses
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-simple-email-service/actiondeleteverifiedemailaddress-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-simple-email-service/actiondeleteverifiedemailaddress-get-openapi.md
-- name: AWS Simple Email Service API List Verified Email Addresses
-  x-api-slug: aws-simple-email-service-api
-  description: Returns a list containing all of the email addresses that have been
-    verified.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonSES.png
-  humanURL: https://aws.amazon.com/ses/
-  baseURL: ://///?Action=ListVerifiedEmailAddresses
-  tags: 'Verified Email Addresses '
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Emails, Messages, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-simple-email-service/actionlistverifiedemailaddresses-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-simple-email-service/actionlistverifiedemailaddresses-get-openapi.md
-- name: AWS Simple Email Service API Verify Email Address
+- name: AWS Simple Email Service API
   x-api-slug: aws-simple-email-service-api
-  description: Verifies an email address.
+  description: ""
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonSES.png
   humanURL: https://aws.amazon.com/ses/
-  baseURL: ://///?Action=VerifyEmailAddress
-  tags: Email Addresses
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Emails, Messages, Profiles, Relative Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-simple-email-service/actionlistverifiedemailaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-simple-email-service/actionlistverifiedemailaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-simple-email-service/actiondeleteverifiedemailaddress-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-simple-email-service/actiondeleteverifiedemailaddress-get-openapi.md
+- name: AWS Simple Email Service API
+  x-api-slug: aws-simple-email-service-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonSES.png
+  humanURL: https://aws.amazon.com/ses/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Emails, Messages, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-simple-email-service/actionlistverifiedemailaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-simple-email-service/actionlistverifiedemailaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-simple-email-service/actiondeleteverifiedemailaddress-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-simple-email-service/actiondeleteverifiedemailaddress-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-simple-email-service/actionlistverifiedemailaddresses-get-openapi.md
+- name: AWS Simple Email Service API
+  x-api-slug: aws-simple-email-service-api
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonSES.png
+  humanURL: https://aws.amazon.com/ses/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Emails, Messages, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-simple-email-service/actionlistverifiedemailaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-simple-email-service/actionlistverifiedemailaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-simple-email-service/actiondeleteverifiedemailaddress-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-simple-email-service/actiondeleteverifiedemailaddress-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-simple-email-service/actionlistverifiedemailaddresses-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-simple-email-service/actionverifyemailaddress-get-postman.md
   - type: x-openapi-spec
@@ -66,6 +101,10 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-simple-email-service/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://aws.shield.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.simple.email.service.stack.network
 - type: x-change-log
   url: http://aws.amazon.com/releasenotes/Amazon-SES
 - type: x-documentation

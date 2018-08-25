@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Reverb
 x-complete: 0
 info:
-  title: reverb Put My Addresses Address
+  title: Reverb Put My Addresses Address
   description: Update an existing address in your address book
   termsOfService: https://reverb.com/page/terms
   contact:

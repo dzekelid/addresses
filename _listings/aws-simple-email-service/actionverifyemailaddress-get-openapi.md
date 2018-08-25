@@ -13,22 +13,6 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteVerifiedEmailAddress:
-    get:
-      summary: Delete Verified Email Address
-      description: Deletes the specified email address from the list of verified addresses.
-      operationId: deleteVerifiedEmailAddress
-      x-api-path-slug: actiondeleteverifiedemailaddress-get
-      parameters:
-      - in: query
-        name: EmailAddress
-        description: An email address to be removed from the list of verified addresses
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Verified Email Addresses
   /?Action=ListVerifiedEmailAddresses:
     get:
       summary: List Verified Email Addresses
@@ -40,6 +24,22 @@ paths:
       - in: query
         name: VerifiedEmailAddresses.member.N
         description: A list of email addresses that have been verified
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Verified Email Addresses
+  /?Action=DeleteVerifiedEmailAddress:
+    get:
+      summary: Delete Verified Email Address
+      description: Deletes the specified email address from the list of verified addresses.
+      operationId: deleteVerifiedEmailAddress
+      x-api-path-slug: actiondeleteverifiedemailaddress-get
+      parameters:
+      - in: query
+        name: EmailAddress
+        description: An email address to be removed from the list of verified addresses
         type: string
       responses:
         200:

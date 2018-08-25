@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Reverb
 x-complete: 0
 info:
-  title: reverb Delete My Addresses Address
+  title: Reverb Delete My Addresses Address
   description: Delete an existing address in your address book
   termsOfService: https://reverb.com/page/terms
   contact:
@@ -49,6 +49,22 @@ paths:
       description: Delete an existing address in your address book
       operationId: deleteMyAddressesAddress
       x-api-path-slug: myaddressesaddress-id-delete
+      parameters:
+      - in: path
+        name: address_id
+      responses:
+        200:
+          description: OK
+      tags:
+      - My
+      - Addresses
+      - Address
+      - Id
+    put:
+      summary: Put My Addresses Address
+      description: Update an existing address in your address book
+      operationId: putMyAddressesAddress
+      x-api-path-slug: myaddressesaddress-id-put
       parameters:
       - in: path
         name: address_id

@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Reverb
 x-complete: 0
 info:
-  title: reverb Get My Addresses
+  title: Reverb Get My Addresses
   description: See all addresses in your address book
   termsOfService: https://reverb.com/page/terms
   contact:

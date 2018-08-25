@@ -6,59 +6,273 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.j
 x-kinRank: "9"
 x-alexaRank: "187"
 tags: Addresses
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-24"
+modified: "2018-08-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Etsy Get Users User Addresses
+- name: Etsy
   x-api-slug: etsy
-  description: Retrieves a set of UserAddress objects associated to a User.
+  description: bring-etsys-handmade-marketplace-and-community-into-your-apps-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
-  baseURL: https://openapi.etsy.com//v2/private///users/{user_id}/addresses
-  tags: Users,Addresses
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddresses-get-openapi.md
-- name: Etsy Post Users User Addresses
+- name: Etsy
   x-api-slug: etsy
-  description: Creates a new UserAddress.
+  description: bring-etsys-handmade-marketplace-and-community-into-your-apps-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
-  baseURL: https://openapi.etsy.com//v2/private///users/{user_id}/addresses
-  tags: Users,Addresses
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddresses-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddresses-post-openapi.md
-- name: Etsy Get Users User Addresses User Address
+- name: Etsy
   x-api-slug: etsy
-  description: Retrieves a UserAddress by id.
+  description: bring-etsys-handmade-marketplace-and-community-into-your-apps-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
-  baseURL: https://openapi.etsy.com//v2/private///users/{user_id}/addresses/{user_address_id}
-  tags: Users,Addresses,User,Address
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddresses-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddresses-post-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddressesuser-address-id-get-openapi.md
-- name: Etsy Put Users User Addresses User Address
+- name: Etsy
   x-api-slug: etsy
-  description: Updates a UserAddress with the given id.
+  description: bring-etsys-handmade-marketplace-and-community-into-your-apps-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
-  baseURL: https://openapi.etsy.com//v2/private///users/{user_id}/addresses/{user_address_id}
-  tags: Users,Addresses,User,Address
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
   properties:
   - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddresses-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddresses-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddressesuser-address-id-get-openapi.md
+  - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddressesuser-address-id-put-openapi.md
-- name: Etsy Delete Users User Addresses User Address
+- name: Etsy
   x-api-slug: etsy
-  description: Deletes the UserAddress with the given id.
+  description: bring-etsys-handmade-marketplace-and-community-into-your-apps-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
   humanURL: http://www.etsy.com/
-  baseURL: https://openapi.etsy.com//v2/private///users/{user_id}/addresses/{user_address_id}
-  tags: Users,Addresses,User,Address
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
   properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddresses-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddresses-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddressesuser-address-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddressesuser-address-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddressesuser-address-id-delete-openapi.md
+- name: Etsy
+  x-api-slug: etsy
+  description: bring-etsys-handmade-marketplace-and-community-into-your-apps-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddresses-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddresses-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddressesuser-address-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddressesuser-address-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddressesuser-address-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddressesuser-address-id-get-openapi.md
+- name: Etsy
+  x-api-slug: etsy
+  description: bring-etsys-handmade-marketplace-and-community-into-your-apps-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddresses-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddresses-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddressesuser-address-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddressesuser-address-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddressesuser-address-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddressesuser-address-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddressesuser-address-id-put-openapi.md
+- name: Etsy
+  x-api-slug: etsy
+  description: bring-etsys-handmade-marketplace-and-community-into-your-apps-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddresses-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddresses-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddressesuser-address-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddressesuser-address-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddressesuser-address-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddressesuser-address-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddressesuser-address-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddressesuser-address-id-delete-openapi.md
+- name: Etsy
+  x-api-slug: etsy
+  description: bring-etsys-handmade-marketplace-and-community-into-your-apps-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddresses-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddresses-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddressesuser-address-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddressesuser-address-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddressesuser-address-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddressesuser-address-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddressesuser-address-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddressesuser-address-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddressesuser-address-id-get-openapi.md
+- name: Etsy
+  x-api-slug: etsy
+  description: bring-etsys-handmade-marketplace-and-community-into-your-apps-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddresses-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddresses-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddressesuser-address-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddressesuser-address-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddressesuser-address-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddressesuser-address-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddressesuser-address-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddressesuser-address-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddressesuser-address-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddressesuser-address-id-put-openapi.md
+- name: Etsy
+  x-api-slug: etsy
+  description: bring-etsys-handmade-marketplace-and-community-into-your-apps-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
+  humanURL: http://www.etsy.com/
+  baseURL: https://openapi.etsy.com//v2/private/
+  tags: Children, Clothing, Crochet, Dolls and Miniatures, Furniture, Geekery, Glass,
+    Holidays, Housewares, Jewelry, Knitting, Needlecraft, Paper Goods, Patterns, Pets,
+    Plants and Edibles, Quilts, Supplies, Toys, Vintage, Weddings, Woodworking, Crafts,
+    API LIfeyclessss, Stack Network, Stack, internet, Technology, Marketplace, API
+    Provider, Products, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddresses-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddresses-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddressesuser-address-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddressesuser-address-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddressesuser-address-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddressesuser-address-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddressesuser-address-id-put-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddressesuser-address-id-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddressesuser-address-id-get-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddressesuser-address-id-put-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/usersuser-idaddressesuser-address-id-delete-openapi.md
 - name: Etsy
@@ -78,6 +292,10 @@ apis:
 x-common:
 - type: x-api-json--authoritative
   url: http://apis.io/apisdef/etsy.json
+- type: x-api-gallery
+  url: http://esme.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://etsy.stack.network
 - type: x-application-gallery
   url: https://www.etsy.com/apps/
 - type: x-base

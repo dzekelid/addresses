@@ -6,45 +6,135 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/264-tropo.
 x-kinRank: "7"
 x-alexaRank: "641468"
 tags: Addresses
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-24"
+modified: "2018-08-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tropo/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Tropo Delete Applications Appid Addresses
+- name: Tropo
   x-api-slug: tropo
-  description: Delete applications appid addresses.
+  description: tropo-is-a-cloud-communications-api-and-platform-for-building-scalable-voice-and-sms-applications-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/264-tropo.jpg
   humanURL: https://www.tropo.com/
-  baseURL: https://api.tropo.com//v1///applications/{AppId}/addresses
-  tags: Applications,AppId,Addresses
+  baseURL: https://api.tropo.com//v1/
+  tags: SMS, Speech, Instant Message, Voice, Telephony, Voice, Technology, SaaS, Telecommunications,
+    Mobile, Telecommunications, Messages, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tropo/applicationsappidaddresses-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tropo/applicationsappidaddresses-delete-openapi.md
-- name: Tropo Get Applications Appid Addresses
+- name: Tropo
   x-api-slug: tropo
-  description: Get applications appid addresses.
+  description: tropo-is-a-cloud-communications-api-and-platform-for-building-scalable-voice-and-sms-applications-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/264-tropo.jpg
   humanURL: https://www.tropo.com/
-  baseURL: https://api.tropo.com//v1///applications/{AppId}/addresses
-  tags: Applications,AppId,Addresses
+  baseURL: https://api.tropo.com//v1/
+  tags: SMS, Speech, Instant Message, Voice, Telephony, Voice, Technology, SaaS, Telecommunications,
+    Mobile, Telecommunications, Messages, Relative Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tropo/applicationsappidaddresses-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tropo/applicationsappidaddresses-delete-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tropo/applicationsappidaddresses-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tropo/applicationsappidaddresses-get-openapi.md
-- name: Tropo Post Applications Appid Addresses
+- name: Tropo
   x-api-slug: tropo
-  description: Post applications appid addresses.
+  description: tropo-is-a-cloud-communications-api-and-platform-for-building-scalable-voice-and-sms-applications-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/264-tropo.jpg
   humanURL: https://www.tropo.com/
-  baseURL: https://api.tropo.com//v1///applications/{AppId}/addresses
-  tags: Applications,AppId,Addresses
+  baseURL: https://api.tropo.com//v1/
+  tags: SMS, Speech, Instant Message, Voice, Telephony, Voice, Technology, SaaS, Telecommunications,
+    Mobile, Telecommunications, Messages, Relative Data, Service API
   properties:
   - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tropo/applicationsappidaddresses-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tropo/applicationsappidaddresses-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tropo/applicationsappidaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tropo/applicationsappidaddresses-get-openapi.md
+  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tropo/applicationsappidaddresses-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tropo/applicationsappidaddresses-post-openapi.md
+- name: Tropo
+  x-api-slug: tropo
+  description: tropo-is-a-cloud-communications-api-and-platform-for-building-scalable-voice-and-sms-applications-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/264-tropo.jpg
+  humanURL: https://www.tropo.com/
+  baseURL: https://api.tropo.com//v1/
+  tags: SMS, Speech, Instant Message, Voice, Telephony, Voice, Technology, SaaS, Telecommunications,
+    Mobile, Telecommunications, Messages, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tropo/applicationsappidaddresses-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tropo/applicationsappidaddresses-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tropo/applicationsappidaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tropo/applicationsappidaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tropo/applicationsappidaddresses-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tropo/applicationsappidaddresses-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tropo/applicationsappidaddresses-delete-openapi.md
+- name: Tropo
+  x-api-slug: tropo
+  description: tropo-is-a-cloud-communications-api-and-platform-for-building-scalable-voice-and-sms-applications-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/264-tropo.jpg
+  humanURL: https://www.tropo.com/
+  baseURL: https://api.tropo.com//v1/
+  tags: SMS, Speech, Instant Message, Voice, Telephony, Voice, Technology, SaaS, Telecommunications,
+    Mobile, Telecommunications, Messages, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tropo/applicationsappidaddresses-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tropo/applicationsappidaddresses-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tropo/applicationsappidaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tropo/applicationsappidaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tropo/applicationsappidaddresses-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tropo/applicationsappidaddresses-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tropo/applicationsappidaddresses-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tropo/applicationsappidaddresses-get-openapi.md
+- name: Tropo
+  x-api-slug: tropo
+  description: tropo-is-a-cloud-communications-api-and-platform-for-building-scalable-voice-and-sms-applications-
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/264-tropo.jpg
+  humanURL: https://www.tropo.com/
+  baseURL: https://api.tropo.com//v1/
+  tags: SMS, Speech, Instant Message, Voice, Telephony, Voice, Technology, SaaS, Telecommunications,
+    Mobile, Telecommunications, Messages, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tropo/applicationsappidaddresses-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tropo/applicationsappidaddresses-delete-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tropo/applicationsappidaddresses-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tropo/applicationsappidaddresses-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tropo/applicationsappidaddresses-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tropo/applicationsappidaddresses-post-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tropo/applicationsappidaddresses-delete-openapi.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tropo/applicationsappidaddresses-get-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tropo/applicationsappidaddresses-post-openapi.md
 - name: Tropo
@@ -60,6 +150,10 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tropo/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://trello.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://tropo.stack.network
 - type: x-base
   url: https://api.tropo.com
 - type: x-blog
