@@ -11,44 +11,16 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Addresses
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tigertext/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Tiger Connect Events API
-  x-api-slug: tiger-connect-events-api
-  description: TigerText is a multi-platform, secure, real-time messaging application
-    for the enterprise that allows text messages to be deleted from both the senders
-    and the receivers phones after expiration, which could be a set period of time
-    or after reading. The messages cannot be saved, copied or forwarded by recipients.
-    TigerText does this by storing the message on a company server, not the receiving
-    and sending device, and deleting when the expiration conditions are met.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tigertext-logo.png
-  humanURL: http://www.tigertext.com/
-  baseURL: https://developer.tigertext.me//v2/
-  tags: Addresses
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tigertext/openapi.md
-- name: Tiger Connect Group API
-  x-api-slug: tiger-connect-group-api
-  description: TigerText is a multi-platform, secure, real-time messaging application
-    for the enterprise that allows text messages to be deleted from both the senders
-    and the receivers phones after expiration, which could be a set period of time
-    or after reading. The messages cannot be saved, copied or forwarded by recipients.
-    TigerText does this by storing the message on a company server, not the receiving
-    and sending device, and deleting when the expiration conditions are met.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tigertext-logo.png
-  humanURL: http://www.tigertext.com/
-  baseURL: https://developer.tigertext.me//v2/
-  tags: Addresses
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tigertext/openapi.md
-- name: Tiger Connect Message API
-  x-api-slug: tiger-connect-message-api
-  description: the-message-system-for-tigerconnect-messaging-platform-
+- name: Tiger Connect Message API - Notify a recipient that the User is no longer
+    typing in a conversation.
+  x-api-slug: messagetypingrecipient-address-delete
+  description: Notify a recipient that the User is no longer typing in a conversation.
+    The recipient is either another User or Group using address encoding.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tigertext-logo.png
   humanURL: http://www.tigertext.com/
   baseURL: https://developer.tigertext.me//v2/
@@ -59,9 +31,11 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tigertext/messagetypingrecipient-address-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tigertext/messagetypingrecipient-address-delete-openapi.md
-- name: Tiger Connect Message API
-  x-api-slug: tiger-connect-message-api
-  description: the-message-system-for-tigerconnect-messaging-platform-
+- name: Tiger Connect Message API - Notify a recipient that the User is no longer
+    typing in a conversation.
+  x-api-slug: messagetypingrecipient-address-delete
+  description: Notify a recipient that the User is no longer typing in a conversation.
+    The recipient is either another User or Group using address encoding.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tigertext-logo.png
   humanURL: http://www.tigertext.com/
   baseURL: https://developer.tigertext.me//v2/
@@ -72,41 +46,12 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tigertext/messagetypingrecipient-address-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tigertext/messagetypingrecipient-address-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tigertext/messagetypingrecipient-address-delete-openapi.md
-- name: Tiger Connect Message API
-  x-api-slug: tiger-connect-message-api
-  description: TigerText is a multi-platform, secure, real-time messaging application
-    for the enterprise that allows text messages to be deleted from both the senders
-    and the receivers phones after expiration, which could be a set period of time
-    or after reading. The messages cannot be saved, copied or forwarded by recipients.
-    TigerText does this by storing the message on a company server, not the receiving
-    and sending device, and deleting when the expiration conditions are met.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tigertext-logo.png
-  humanURL: http://www.tigertext.com/
-  baseURL: https://developer.tigertext.me//v2/
-  tags: Addresses
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tigertext/openapi.md
-- name: Tiger Connect Metadata API
-  x-api-slug: tiger-connect-metadata-api
-  description: TigerText is a multi-platform, secure, real-time messaging application
-    for the enterprise that allows text messages to be deleted from both the senders
-    and the receivers phones after expiration, which could be a set period of time
-    or after reading. The messages cannot be saved, copied or forwarded by recipients.
-    TigerText does this by storing the message on a company server, not the receiving
-    and sending device, and deleting when the expiration conditions are met.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tigertext-logo.png
-  humanURL: http://www.tigertext.com/
-  baseURL: https://developer.tigertext.me//v2/
-  tags: Addresses
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tigertext/openapi.md
-- name: Tiger Connect Roster API
-  x-api-slug: tiger-connect-roster-api
-  description: the-roster-system-for-tigerconnect-messaging-platform-
+- name: Tiger Connect Roster API - Remove a conversation from the recent conversation
+    list.
+  x-api-slug: rosteruser-address-delete
+  description: Remove a conversation from the recent conversation list. For conversations
+    that are with another User, all messages are deleted. For conversations with a
+    group, the User leaves the group and is no longer receives subsequent group messages.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tigertext-logo.png
   humanURL: http://www.tigertext.com/
   baseURL: https://developer.tigertext.me//v2/
@@ -117,9 +62,12 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tigertext/rosteruser-address-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tigertext/rosteruser-address-delete-openapi.md
-- name: Tiger Connect Roster API
-  x-api-slug: tiger-connect-roster-api
-  description: the-roster-system-for-tigerconnect-messaging-platform-
+- name: Tiger Connect Roster API - Remove a conversation from the recent conversation
+    list.
+  x-api-slug: rosteruser-address-delete
+  description: Remove a conversation from the recent conversation list. For conversations
+    that are with another User, all messages are deleted. For conversations with a
+    group, the User leaves the group and is no longer receives subsequent group messages.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tigertext-logo.png
   humanURL: http://www.tigertext.com/
   baseURL: https://developer.tigertext.me//v2/
@@ -130,26 +78,10 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tigertext/rosteruser-address-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tigertext/rosteruser-address-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tigertext/rosteruser-address-delete-openapi.md
-- name: Tiger Connect Roster API
-  x-api-slug: tiger-connect-roster-api
-  description: TigerText is a multi-platform, secure, real-time messaging application
-    for the enterprise that allows text messages to be deleted from both the senders
-    and the receivers phones after expiration, which could be a set period of time
-    or after reading. The messages cannot be saved, copied or forwarded by recipients.
-    TigerText does this by storing the message on a company server, not the receiving
-    and sending device, and deleting when the expiration conditions are met.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tigertext-logo.png
-  humanURL: http://www.tigertext.com/
-  baseURL: https://developer.tigertext.me//v2/
-  tags: Addresses
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tigertext/openapi.md
-- name: Tiger Connect User API
-  x-api-slug: tiger-connect-user-api
-  description: the-user-system-for-tigerconnect-messaging-platform-
+- name: Tiger Connect User API - Get information about users using their user address
+    encoding.
+  x-api-slug: useruser-address-get
+  description: Get information about users using their user address encoding.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tigertext-logo.png
   humanURL: http://www.tigertext.com/
   baseURL: https://developer.tigertext.me//v2/
@@ -160,9 +92,10 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tigertext/useruser-address-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tigertext/useruser-address-get-openapi.md
-- name: Tiger Connect User API
-  x-api-slug: tiger-connect-user-api
-  description: the-user-system-for-tigerconnect-messaging-platform-
+- name: Tiger Connect User API - Get information about users using their user address
+    encoding.
+  x-api-slug: useruser-address-get
+  description: Get information about users using their user address encoding.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tigertext-logo.png
   humanURL: http://www.tigertext.com/
   baseURL: https://developer.tigertext.me//v2/
@@ -173,83 +106,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tigertext/useruser-address-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tigertext/useruser-address-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tigertext/useruser-address-get-openapi.md
-- name: Tiger Connect User API
-  x-api-slug: tiger-connect-user-api
-  description: TigerText is a multi-platform, secure, real-time messaging application
-    for the enterprise that allows text messages to be deleted from both the senders
-    and the receivers phones after expiration, which could be a set period of time
-    or after reading. The messages cannot be saved, copied or forwarded by recipients.
-    TigerText does this by storing the message on a company server, not the receiving
-    and sending device, and deleting when the expiration conditions are met.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tigertext-logo.png
-  humanURL: http://www.tigertext.com/
-  baseURL: https://developer.tigertext.me//v2/
-  tags: Addresses
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tigertext/openapi.md
-- name: TigerConnect Events API
-  x-api-slug: tigerconnect-events-api
-  description: The TigerConnect message platform events endpoint.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tigertext-logo.png
-  humanURL: http://www.tigertext.com/
-  baseURL: https://developer.tigertext.me//v2/
-  tags: Addresses
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tigertext/openapi.md
-- name: TigerConnect Group API
-  x-api-slug: tigerconnect-group-api
-  description: The TigerConnect message platform group endpoint.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tigertext-logo.png
-  humanURL: http://www.tigertext.com/
-  baseURL: https://developer.tigertext.me//v2/
-  tags: Addresses
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tigertext/openapi.md
-- name: TIgerConnect Message API
-  x-api-slug: tigerconnect-message-api
-  description: The TigerConnect message platform message endpoint.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tigertext-logo.png
-  humanURL: http://www.tigertext.com/
-  baseURL: https://developer.tigertext.me//v2/
-  tags: Addresses
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tigertext/openapi.md
-- name: TigerConnect Metadata API
-  x-api-slug: tigerconnect-metadata-api
-  description: The TigerConnect message platform metadata endpoint.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tigertext-logo.png
-  humanURL: http://www.tigertext.com/
-  baseURL: https://developer.tigertext.me//v2/
-  tags: Addresses
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tigertext/openapi.md
-- name: TigerConnect Roster API
-  x-api-slug: tigerconnect-roster-api
-  description: The TigerConnect message platform roster endpoint.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tigertext-logo.png
-  humanURL: http://www.tigertext.com/
-  baseURL: https://developer.tigertext.me//v2/
-  tags: Addresses
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tigertext/openapi.md
-- name: TigerConnect User API
-  x-api-slug: tigerconnect-user-api
-  description: The TigerConnect message platform user endpoint.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tigertext-logo.png
-  humanURL: http://www.tigertext.com/
-  baseURL: https://developer.tigertext.me//v2/
-  tags: Addresses
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tigertext/openapi.md
 x-common:
 - type: x-android-sdk
   url: https://developer.tigertext.com/docs/sdk#android-sdk

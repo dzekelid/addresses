@@ -6,14 +6,14 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-contex
 x-kinRank: "9"
 x-alexaRank: "569975"
 tags: Addresses
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Context.IO
-  x-api-slug: context-io
-  description: context-io-is-the-missing-email-api-that-makes-it-easy-and-fast-to-integrate-your-users-email-data-in-your-application-
+- name: Context.IO - Get Accounts Email Addresses
+  x-api-slug: accountsidemail-addresses-get
+  description: Lists email addresses used by an account.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg
   humanURL: http://context.io/
   baseURL: https://api.context.io//2.0/
@@ -24,72 +24,48 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addresses-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addresses-get-openapi.md
-- name: Context.IO
-  x-api-slug: context-io
-  description: context-io-is-the-missing-email-api-that-makes-it-easy-and-fast-to-integrate-your-users-email-data-in-your-application-
+- name: Context.IO - Post Accounts Email Addresses
+  x-api-slug: accountsidemail-addresses-post
+  description: Adds a new email address as an alias for an account.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg
   humanURL: http://context.io/
   baseURL: https://api.context.io//2.0/
   tags: API LIfeyclessss, Stack Network, Technology, SaaS, Mobile, API Provider, Emails,
     Messages, Profiles, Emails, Service API, Relative Data
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addresses-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addresses-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addresses-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addresses-post-openapi.md
-- name: Context.IO
-  x-api-slug: context-io
-  description: context-io-is-the-missing-email-api-that-makes-it-easy-and-fast-to-integrate-your-users-email-data-in-your-application-
+- name: Context.IO - Post Accounts Email Addresses Email
+  x-api-slug: accountsidemail-addressesemail-post
+  description: Makes this email address the primary one for the account.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg
   humanURL: http://context.io/
   baseURL: https://api.context.io//2.0/
   tags: API LIfeyclessss, Stack Network, Technology, SaaS, Mobile, API Provider, Emails,
     Messages, Profiles, Emails, Service API, Relative Data
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addresses-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addresses-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addresses-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addresses-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addressesemail-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addressesemail-post-openapi.md
-- name: Context.IO
-  x-api-slug: context-io
-  description: context-io-is-the-missing-email-api-that-makes-it-easy-and-fast-to-integrate-your-users-email-data-in-your-application-
+- name: Context.IO - Delete Accounts Email Addresses Email
+  x-api-slug: accountsidemail-addressesemail-delete
+  description: Removes an email address form the aliases of an account.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg
   humanURL: http://context.io/
   baseURL: https://api.context.io//2.0/
   tags: API LIfeyclessss, Stack Network, Technology, SaaS, Mobile, API Provider, Emails,
     Messages, Profiles, Emails, Service API, Relative Data
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addresses-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addresses-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addresses-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addresses-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addressesemail-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addressesemail-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addressesemail-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addressesemail-delete-openapi.md
-- name: Context.IO
-  x-api-slug: context-io
-  description: context-io-is-the-missing-email-api-that-makes-it-easy-and-fast-to-integrate-your-users-email-data-in-your-application-
+- name: Context.IO - Get Accounts Email Addresses
+  x-api-slug: accountsidemail-addresses-get
+  description: Lists email addresses used by an account.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg
   humanURL: http://context.io/
   baseURL: https://api.context.io//2.0/
@@ -100,23 +76,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addresses-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addresses-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addresses-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addresses-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addressesemail-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addressesemail-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addressesemail-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addressesemail-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addresses-get-openapi.md
-- name: Context.IO
-  x-api-slug: context-io
-  description: context-io-is-the-missing-email-api-that-makes-it-easy-and-fast-to-integrate-your-users-email-data-in-your-application-
+- name: Context.IO - Post Accounts Email Addresses
+  x-api-slug: accountsidemail-addresses-post
+  description: Adds a new email address as an alias for an account.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg
   humanURL: http://context.io/
   baseURL: https://api.context.io//2.0/
@@ -124,28 +86,12 @@ apis:
     Messages, Profiles, Emails, Service API, Relative Data
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addresses-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addresses-get-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addresses-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addresses-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addressesemail-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addressesemail-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addressesemail-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addressesemail-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addresses-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addresses-post-openapi.md
-- name: Context.IO
-  x-api-slug: context-io
-  description: context-io-is-the-missing-email-api-that-makes-it-easy-and-fast-to-integrate-your-users-email-data-in-your-application-
+- name: Context.IO - Post Accounts Email Addresses Email
+  x-api-slug: accountsidemail-addressesemail-post
+  description: Makes this email address the primary one for the account.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg
   humanURL: http://context.io/
   baseURL: https://api.context.io//2.0/
@@ -153,30 +99,12 @@ apis:
     Messages, Profiles, Emails, Service API, Relative Data
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addresses-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addresses-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addresses-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addresses-post-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addressesemail-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addressesemail-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addressesemail-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addressesemail-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addresses-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addresses-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addressesemail-post-openapi.md
-- name: Context.IO
-  x-api-slug: context-io
-  description: context-io-is-the-missing-email-api-that-makes-it-easy-and-fast-to-integrate-your-users-email-data-in-your-application-
+- name: Context.IO - Delete Accounts Email Addresses Email
+  x-api-slug: accountsidemail-addressesemail-delete
+  description: Removes an email address form the aliases of an account.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg
   humanURL: http://context.io/
   baseURL: https://api.context.io//2.0/
@@ -184,40 +112,9 @@ apis:
     Messages, Profiles, Emails, Service API, Relative Data
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addresses-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addresses-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addresses-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addresses-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addressesemail-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addressesemail-post-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addressesemail-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addressesemail-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addresses-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addresses-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addressesemail-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/accountsidemail-addressesemail-delete-openapi.md
-- name: Context.IO
-  x-api-slug: context-io
-  description: Context.IO is the missing email API that makes it easy and fastto integrate
-    your users email data in your application.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg
-  humanURL: http://context.io/
-  baseURL: https://api.context.io//2.0/
-  tags: Addresses
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://constant.contact.api.gallery.streamdata.io

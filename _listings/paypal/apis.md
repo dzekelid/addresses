@@ -7,48 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal
 x-kinRank: "10"
 x-alexaRank: "71"
 tags: Addresses
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/paypal/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Paypal
-  x-api-slug: paypal
-  description: bring-payments-to-apps-mobile-and-social-with-adaptive-payments-bsandbox-api-b
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
-  humanURL: https://paypal.com
-  baseURL: https://svcs.sandbox.paypal.com//
-  tags: International, Payments, Billing, Merchant, Indie EdTech Data Jam, Getting
-    Started Example, Stack Network, Stack, Hypermedia API, Financial Services, Technology,
-    Mobile, SaaS, internet, Invoices, Payments, Payments, Relative Data, Service API
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/paypal/adaptivepaymentsgetshippingaddresses-post-openapi.md
-- name: Paypal
-  x-api-slug: paypal
-  description: bring-payments-to-apps-mobile-and-social-with-adaptive-payments-bsandbox-api-b
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
-  humanURL: https://paypal.com
-  baseURL: https://svcs.sandbox.paypal.com//
-  tags: International, Payments, Billing, Merchant, Indie EdTech Data Jam, Getting
-    Started Example, Stack Network, Stack, Hypermedia API, Financial Services, Technology,
-    Mobile, SaaS, internet, Invoices, Payments, Payments, Relative Data, Service API
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/paypal/adaptivepaymentsgetshippingaddresses-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/paypal/adaptivepaymentsgetshippingaddresses-post-openapi.md
-- name: Paypal
-  x-api-slug: paypal
-  description: PayPal is the faster, safer way to send money, make an online payment,
-    receive money or set up a merchant account.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg
-  humanURL: https://paypal.com
-  baseURL: https://svcs.sandbox.paypal.com//
-  tags: Addresses
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/paypal/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://paylocity.api.gallery.streamdata.io

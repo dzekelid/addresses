@@ -8,23 +8,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/464-smarty
 x-kinRank: "7"
 x-alexaRank: "150282"
 tags: Addresses
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/smartystreets/apis.md
 specificationVersion: "0.14"
-apis:
-- name: SmartyStreets
-  x-api-slug: smartystreets
-  description: Address Verification tools for USPS & International Addresses. Verify
-    addresses with our easy-to-use list processing tools, APIs with 100% uptime, and
-    more.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/464-smartystreets.jpg
-  humanURL: http://www.smartystreets.com/Products/LiveAddress-API/
-  baseURL: https:///
-  tags: Addresses
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/smartystreets/openapi.md
+apis: []
 x-common:
 - type: x-website
   url: http://www.smartystreets.com/Products/LiveAddress-API/

@@ -6,14 +6,14 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2017-opens
 x-kinRank: "10"
 x-alexaRank: "6266"
 tags: Addresses
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/openstreetmap/apis.md
 specificationVersion: "0.14"
 apis:
-- name: OpenStreetMap
-  x-api-slug: openstreetmap
-  description: todo-add-description
+- name: Open Street Map (OSM) - OSM - Address lookup
+  x-api-slug: lookup-get
+  description: '[Full description of the service:](http://wiki.openstreetmap.org/wiki/Nominatim#Address_lookup)'
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2017-openstreetmap.jpg
   humanURL: http://www.openstreetmap.org/
   baseURL: https:// http:///nominatim.openstreetmap.org
@@ -23,16 +23,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/openstreetmap/lookup-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/openstreetmap/lookup-get-openapi.md
-- name: OpenStreetMap
-  x-api-slug: openstreetmap
-  description: OpenStreetMap is the free wiki world map.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2017-openstreetmap.jpg
-  humanURL: http://www.openstreetmap.org/
-  baseURL: https:// http:///nominatim.openstreetmap.org
-  tags: Addresses
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/openstreetmap/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://openrouteservice.api.gallery.streamdata.io

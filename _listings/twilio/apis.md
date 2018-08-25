@@ -7,14 +7,17 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio
 x-kinRank: "10"
 x-alexaRank: "9195"
 tags: Addresses
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Twilio
-  x-api-slug: twilio
-  description: twilio-is-a-cloud-communications-infrastructure-as-a-serviceiaas-company-based-in-san-francisco-california--twilio-allows-software-developers-to-programmatically-make-and-receive-phone-calls-and-send-and-receive-text-messages-using-its-web-service-apis--twilios-services-are-accessed-over-http-and-are-billed-based-on-usage-
+- name: Twilio - Add SIP IP Access Control List
+  x-api-slug: accountsaccountsidsipipaccesscontrollists-post
+  description: Create a new IpAccessControlList resource.nnWhen created, the list
+    will contain no IP addresses. You will need to add IP addresses to the list for
+    it to be active. To add IP addresses, you will need to POST to the IpAddresses
+    List subresource.n
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
@@ -27,9 +30,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollists-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollists-post-openapi.md
-- name: Twilio
-  x-api-slug: twilio
-  description: twilio-is-a-cloud-communications-infrastructure-as-a-serviceiaas-company-based-in-san-francisco-california--twilio-allows-software-developers-to-programmatically-make-and-receive-phone-calls-and-send-and-receive-text-messages-using-its-web-service-apis--twilios-services-are-accessed-over-http-and-are-billed-based-on-usage-
+- name: Twilio - Get SIP IP Access Control List IP Address
+  x-api-slug: accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-get
+  description: List the IP Addresses contained in this list.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
@@ -38,17 +41,13 @@ apis:
     Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
     Service API, Relative StreamRank, Streams
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollists-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollists-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-get-openapi.md
-- name: Twilio
-  x-api-slug: twilio
-  description: twilio-is-a-cloud-communications-infrastructure-as-a-serviceiaas-company-based-in-san-francisco-california--twilio-allows-software-developers-to-programmatically-make-and-receive-phone-calls-and-send-and-receive-text-messages-using-its-web-service-apis--twilios-services-are-accessed-over-http-and-are-billed-based-on-usage-
+- name: Twilio - Add SIP IP Access Control List IP Address
+  x-api-slug: accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-post
+  description: Add an IP Address to the list with a description.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
@@ -57,21 +56,13 @@ apis:
     Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
     Service API, Relative StreamRank, Streams
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollists-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollists-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-post-openapi.md
-- name: Twilio
-  x-api-slug: twilio
-  description: twilio-is-a-cloud-communications-infrastructure-as-a-serviceiaas-company-based-in-san-francisco-california--twilio-allows-software-developers-to-programmatically-make-and-receive-phone-calls-and-send-and-receive-text-messages-using-its-web-service-apis--twilios-services-are-accessed-over-http-and-are-billed-based-on-usage-
+- name: Twilio - Delete SIP IP Access Control List IP Address
+  x-api-slug: accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-delete
+  description: Deletes an IP address entry from the list.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
@@ -80,25 +71,13 @@ apis:
     Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
     Service API, Relative StreamRank, Streams
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollists-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollists-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-delete-openapi.md
-- name: Twilio
-  x-api-slug: twilio
-  description: twilio-is-a-cloud-communications-infrastructure-as-a-serviceiaas-company-based-in-san-francisco-california--twilio-allows-software-developers-to-programmatically-make-and-receive-phone-calls-and-send-and-receive-text-messages-using-its-web-service-apis--twilios-services-are-accessed-over-http-and-are-billed-based-on-usage-
+- name: Twilio - Get SIP IP Access Control List IP Address
+  x-api-slug: accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-get
+  description: Return a single IP Address resource.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
@@ -107,29 +86,14 @@ apis:
     Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
     Service API, Relative StreamRank, Streams
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollists-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollists-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-delete-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-get-openapi.md
-- name: Twilio
-  x-api-slug: twilio
-  description: twilio-is-a-cloud-communications-infrastructure-as-a-serviceiaas-company-based-in-san-francisco-california--twilio-allows-software-developers-to-programmatically-make-and-receive-phone-calls-and-send-and-receive-text-messages-using-its-web-service-apis--twilios-services-are-accessed-over-http-and-are-billed-based-on-usage-
+- name: Twilio - Add SIP IP Access Control List IP Address
+  x-api-slug: accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-post
+  description: Change the description or IP address of a given IpAddress instance
+    resource
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
@@ -138,33 +102,16 @@ apis:
     Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
     Service API, Relative StreamRank, Streams
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollists-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollists-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-post-openapi.md
-- name: Twilio
-  x-api-slug: twilio
-  description: twilio-is-a-cloud-communications-infrastructure-as-a-serviceiaas-company-based-in-san-francisco-california--twilio-allows-software-developers-to-programmatically-make-and-receive-phone-calls-and-send-and-receive-text-messages-using-its-web-service-apis--twilios-services-are-accessed-over-http-and-are-billed-based-on-usage-
+- name: Twilio - Add SIP IP Access Control List
+  x-api-slug: accountsaccountsidsipipaccesscontrollists-post
+  description: Create a new IpAccessControlList resource.nnWhen created, the list
+    will contain no IP addresses. You will need to add IP addresses to the list for
+    it to be active. To add IP addresses, you will need to POST to the IpAddresses
+    List subresource.n
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
@@ -177,31 +124,11 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollists-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollists-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollists-post-openapi.md
-- name: Twilio
-  x-api-slug: twilio
-  description: twilio-is-a-cloud-communications-infrastructure-as-a-serviceiaas-company-based-in-san-francisco-california--twilio-allows-software-developers-to-programmatically-make-and-receive-phone-calls-and-send-and-receive-text-messages-using-its-web-service-apis--twilios-services-are-accessed-over-http-and-are-billed-based-on-usage-
+- name: Twilio - Delete SIP IP Access Control List IP Address
+  x-api-slug: accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsid-delete
+  description: Delete an IpAccessControlList from your account. It can only be deleted
+    if no domains are mapped to it. If you attempt to delete one that is mapped to
+    a domain, you will receive an error.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
@@ -210,39 +137,13 @@ apis:
     Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
     Service API, Relative StreamRank, Streams
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollists-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollists-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollists-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsid-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsid-delete-openapi.md
-- name: Twilio
-  x-api-slug: twilio
-  description: twilio-is-a-cloud-communications-infrastructure-as-a-serviceiaas-company-based-in-san-francisco-california--twilio-allows-software-developers-to-programmatically-make-and-receive-phone-calls-and-send-and-receive-text-messages-using-its-web-service-apis--twilios-services-are-accessed-over-http-and-are-billed-based-on-usage-
+- name: Twilio - Get SIP IP Access Control List IP Address
+  x-api-slug: accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsid-get
+  description: Return a specific IpAccessControlList resource.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
@@ -251,43 +152,13 @@ apis:
     Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
     Service API, Relative StreamRank, Streams
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollists-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollists-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollists-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsid-delete-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsid-get-openapi.md
-- name: Twilio
-  x-api-slug: twilio
-  description: twilio-is-a-cloud-communications-infrastructure-as-a-serviceiaas-company-based-in-san-francisco-california--twilio-allows-software-developers-to-programmatically-make-and-receive-phone-calls-and-send-and-receive-text-messages-using-its-web-service-apis--twilios-services-are-accessed-over-http-and-are-billed-based-on-usage-
+- name: Twilio - Add SIP IP Access Control List IP Address
+  x-api-slug: accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsid-post
+  description: Rename an IpAccessControlList.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
@@ -296,47 +167,13 @@ apis:
     Enterprise, internet, SMS, Telecommunications, Messages, Messages, Relative Data,
     Service API, Relative StreamRank, Streams
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollists-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollists-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollists-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsid-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsid-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsid-post-openapi.md
-- name: Twilio
-  x-api-slug: twilio
-  description: twilio-is-a-cloud-communications-infrastructure-as-a-serviceiaas-company-based-in-san-francisco-california--twilio-allows-software-developers-to-programmatically-make-and-receive-phone-calls-and-send-and-receive-text-messages-using-its-web-service-apis--twilios-services-are-accessed-over-http-and-are-billed-based-on-usage-
+- name: Twilio - Get SIP IP Access Control List IP Address
+  x-api-slug: accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-get
+  description: List the IP Addresses contained in this list.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
@@ -346,48 +183,12 @@ apis:
     Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollists-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollists-post-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollists-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsid-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsid-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-get-openapi.md
-- name: Twilio
-  x-api-slug: twilio
-  description: twilio-is-a-cloud-communications-infrastructure-as-a-serviceiaas-company-based-in-san-francisco-california--twilio-allows-software-developers-to-programmatically-make-and-receive-phone-calls-and-send-and-receive-text-messages-using-its-web-service-apis--twilios-services-are-accessed-over-http-and-are-billed-based-on-usage-
+- name: Twilio - Add SIP IP Access Control List IP Address
+  x-api-slug: accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-post
+  description: Add an IP Address to the list with a description.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
@@ -397,50 +198,12 @@ apis:
     Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollists-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollists-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-get-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollists-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsid-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsid-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-post-openapi.md
-- name: Twilio
-  x-api-slug: twilio
-  description: twilio-is-a-cloud-communications-infrastructure-as-a-serviceiaas-company-based-in-san-francisco-california--twilio-allows-software-developers-to-programmatically-make-and-receive-phone-calls-and-send-and-receive-text-messages-using-its-web-service-apis--twilios-services-are-accessed-over-http-and-are-billed-based-on-usage-
+- name: Twilio - Delete SIP IP Access Control List IP Address
+  x-api-slug: accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-delete
+  description: Deletes an IP address entry from the list.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
@@ -450,52 +213,12 @@ apis:
     Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollists-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollists-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-post-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollists-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsid-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsid-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-delete-openapi.md
-- name: Twilio
-  x-api-slug: twilio
-  description: twilio-is-a-cloud-communications-infrastructure-as-a-serviceiaas-company-based-in-san-francisco-california--twilio-allows-software-developers-to-programmatically-make-and-receive-phone-calls-and-send-and-receive-text-messages-using-its-web-service-apis--twilios-services-are-accessed-over-http-and-are-billed-based-on-usage-
+- name: Twilio - Get SIP IP Access Control List IP Address
+  x-api-slug: accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-get
+  description: Return a single IP Address resource.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
@@ -505,54 +228,13 @@ apis:
     Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollists-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollists-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-delete-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollists-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsid-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsid-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-get-openapi.md
-- name: Twilio
-  x-api-slug: twilio
-  description: twilio-is-a-cloud-communications-infrastructure-as-a-serviceiaas-company-based-in-san-francisco-california--twilio-allows-software-developers-to-programmatically-make-and-receive-phone-calls-and-send-and-receive-text-messages-using-its-web-service-apis--twilios-services-are-accessed-over-http-and-are-billed-based-on-usage-
+- name: Twilio - Add SIP IP Access Control List IP Address
+  x-api-slug: accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-post
+  description: Change the description or IP address of a given IpAddress instance
+    resource
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
   humanURL: http://www.twilio.com
   baseURL: https://api.twilio.com//2010-04-01/
@@ -562,64 +244,9 @@ apis:
     Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollists-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollists-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-get-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollists-post-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsid-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsid-delete-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsid-post-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsid-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddresses-post-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-delete-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/accountsaccountsidsipipaccesscontrollistsipaccesscontrollistsidipaddressesipaddresssid-post-openapi.md
-- name: Twilio
-  x-api-slug: twilio
-  description: Cloud communications platform for building SMS, Voice & Messaging applications
-    on an API built for global scale. Get started with a free trial.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg
-  humanURL: http://www.twilio.com
-  baseURL: https://api.twilio.com//2010-04-01/
-  tags: Addresses
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/openapi.md
 x-common:
 - type: x--net-library
   url: https://www.twilio.com/docs/csharp/install
