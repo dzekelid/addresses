@@ -11,8 +11,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Addresses
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tigertext/apis.md
 specificationVersion: "0.14"
 apis:
@@ -46,6 +46,21 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tigertext/messagetypingrecipient-address-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tigertext/messagetypingrecipient-address-delete-openapi.md
+- name: Tiger Connect Message API - Notify a recipient that the User is no longer
+    typing in a conversation.
+  x-api-slug: messagetypingrecipient-address-delete
+  description: Notify a recipient that the User is no longer typing in a conversation.
+    The recipient is either another User or Group using address encoding.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tigertext-logo.png
+  humanURL: http://www.tigertext.com/
+  baseURL: https://developer.tigertext.me//v2/
+  tags: SMS, Secure, SMS, Getting Started Example, SMS, Messages, Messages, Relative
+    Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tigertext/messagetypingrecipient-address-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tigertext/messagetypingrecipient-address-delete-openapi.md
 - name: Tiger Connect Roster API - Remove a conversation from the recent conversation
     list.
   x-api-slug: rosteruser-address-delete
@@ -78,6 +93,36 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tigertext/rosteruser-address-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tigertext/rosteruser-address-delete-openapi.md
+- name: Tiger Connect Roster API - Remove a conversation from the recent conversation
+    list.
+  x-api-slug: rosteruser-address-delete
+  description: Remove a conversation from the recent conversation list. For conversations
+    that are with another User, all messages are deleted. For conversations with a
+    group, the User leaves the group and is no longer receives subsequent group messages.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tigertext-logo.png
+  humanURL: http://www.tigertext.com/
+  baseURL: https://developer.tigertext.me//v2/
+  tags: SMS, Secure, SMS, Getting Started Example, SMS, Messages, Messages, Relative
+    Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tigertext/rosteruser-address-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tigertext/rosteruser-address-delete-openapi.md
+- name: Tiger Connect User API - Get information about users using their user address
+    encoding.
+  x-api-slug: useruser-address-get
+  description: Get information about users using their user address encoding.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tigertext-logo.png
+  humanURL: http://www.tigertext.com/
+  baseURL: https://developer.tigertext.me//v2/
+  tags: SMS, Secure, SMS, Getting Started Example, SMS, Messages, Messages, Relative
+    Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tigertext/useruser-address-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tigertext/useruser-address-get-openapi.md
 - name: Tiger Connect User API - Get information about users using their user address
     encoding.
   x-api-slug: useruser-address-get

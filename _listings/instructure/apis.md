@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instru
 x-kinRank: "8"
 x-alexaRank: "367"
 tags: Addresses
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/instructure/apis.md
 specificationVersion: "0.14"
 apis:
@@ -142,6 +142,71 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/instructure/usersuser-idcommunication-channelstypeaddressnotification-preferencesnotification-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/instructure/usersuser-idcommunication-channelstypeaddressnotification-preferencesnotification-get-openapi.md
+- name: Instructure Canvas Users API - Get a preference
+  x-api-slug: usersuser-idcommunication-channelstypeaddressnotification-preferencesnotification-get
+  description: Get a preference.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/instructure/usersuser-idcommunication-channelstypeaddressnotification-preferencesnotification-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/instructure/usersuser-idcommunication-channelstypeaddressnotification-preferencesnotification-get-openapi.md
+- name: Instructure Canvas Users API - List preferences
+  x-api-slug: usersuser-idcommunication-channelstypeaddressnotification-preferences-get
+  description: List preferences.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/instructure/usersuser-idcommunication-channelstypeaddressnotification-preferences-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/instructure/usersuser-idcommunication-channelstypeaddressnotification-preferences-get-openapi.md
+- name: Instructure Canvas Users API - Delete a communication channel
+  x-api-slug: usersuser-idcommunication-channelstypeaddress-delete
+  description: Delete a communication channel.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/instructure/usersuser-idcommunication-channelstypeaddress-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/instructure/usersuser-idcommunication-channelstypeaddress-delete-openapi.md
+- name: Instructure Canvas Users API - Update a preference
+  x-api-slug: usersselfcommunication-channelstypeaddressnotification-preferencesnotification-put
+  description: Update a preference.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/instructure/usersselfcommunication-channelstypeaddressnotification-preferencesnotification-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/instructure/usersselfcommunication-channelstypeaddressnotification-preferencesnotification-put-openapi.md
+- name: Instructure Canvas Users API - Update multiple preferences
+  x-api-slug: usersselfcommunication-channelstypeaddressnotification-preferences-put
+  description: Update multiple preferences.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/instructure/usersselfcommunication-channelstypeaddressnotification-preferences-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/instructure/usersselfcommunication-channelstypeaddressnotification-preferences-put-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://instagram.api.gallery.streamdata.io

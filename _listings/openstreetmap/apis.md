@@ -6,11 +6,23 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2017-opens
 x-kinRank: "10"
 x-alexaRank: "6266"
 tags: Addresses
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/openstreetmap/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Open Street Map (OSM) - OSM - Address lookup
+  x-api-slug: lookup-get
+  description: '[Full description of the service:](http://wiki.openstreetmap.org/wiki/Nominatim#Address_lookup)'
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2017-openstreetmap.jpg
+  humanURL: http://www.openstreetmap.org/
+  baseURL: https:// http:///nominatim.openstreetmap.org
+  tags: Geo, Stack Network, Technology, SaaS, Tags, Maps, Maps, Meta
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/openstreetmap/lookup-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/openstreetmap/lookup-get-openapi.md
 - name: Open Street Map (OSM) - OSM - Address lookup
   x-api-slug: lookup-get
   description: '[Full description of the service:](http://wiki.openstreetmap.org/wiki/Nominatim#Address_lookup)'

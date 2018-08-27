@@ -25,11 +25,25 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Addresses
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-route-53/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Route 53 API - Get Checker Ip Ranges
+  x-api-slug: 20130401checkeripranges-get
+  description: GetCheckerIpRanges still works, but we recommend that you download
+    ip-ranges.json, which includes IP address ranges for all AWS services. For more
+    information, see IP Address Ranges of Amazon Route 53 Servers in the Amazon Route
+    53 Developer Guide.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Networking_AmazonRoute53.png
+  humanURL: https://aws.amazon.com/route53/
+  baseURL: :///
+  tags: Amazon Web Services, DNS, API Service Provider, API Service Provider, API
+    Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-route-53/20130401checkeripranges-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.rekognition.api.gallery.streamdata.io

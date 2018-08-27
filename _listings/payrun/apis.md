@@ -7,11 +7,24 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28484-payr
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Addresses
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/payrun/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Pay Run.IO - Gets the address template
+  x-api-slug: templatesaddress-get
+  description: Return the address data object template
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28484-payrun-io.jpg
+  humanURL: http://www.payrun.io
+  baseURL: https://api.test.payrun.io//
+  tags: Payments, API Provider, Technology, SaaS, Profiles, Service API, Relative
+    Data, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/payrun/templatesaddress-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/payrun/templatesaddress-get-openapi.md
 - name: Pay Run.IO - Gets the address template
   x-api-slug: templatesaddress-get
   description: Return the address data object template

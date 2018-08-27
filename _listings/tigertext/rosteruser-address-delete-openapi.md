@@ -23,6 +23,25 @@ produces:
 consumes:
 - application/json
 paths:
+  /message/typing/{recipient_address}/:
+    delete:
+      summary: Notify a recipient that the User is no longer typing in a conversation.
+      description: Notify a recipient that the User is no longer typing in a conversation.
+        The recipient is either another User or Group using address encoding.
+      operationId: deleteMessageTyping
+      x-api-path-slug: messagetypingrecipient-address-delete
+      parameters:
+      - in: path
+        name: recipient_address
+        description: The recipient address
+      responses:
+        200:
+          description: OK
+      tags:
+      - Message
+      - Typing
+      - Recipient
+      - Address
   /roster/{user_address}/:
     delete:
       summary: Remove a conversation from the recent conversation list.

@@ -10,11 +10,154 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "970321"
 tags: Addresses
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/coinfabrik/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Coinbase API - List addresses
+  x-api-slug: accountsaccount-idaddresses-get
+  description: |-
+    Lists addresses for an account.
+
+    *Important*: Addresses should be considered one time use only.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/coinfabrik.png
+  humanURL: https://www.coinfabrik.com
+  baseURL: https://api.coinbase.com//v2
+  tags: SaaS, Blockchain, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/coinfabrik/accountsaccount-idaddresses-get-openapi.md
+- name: Coinbase API - Create address
+  x-api-slug: accountsaccount-idaddresses-post
+  description: "Creates a new address for an account. As all the arguments are optinal,
+    it\u2019s possible just to do a empty POST which will create a new address. This
+    is handy if you need to create new receive addresses for an account on-demand.\nAddresses
+    can be created for all account types. With fiat accounts, funds will be received
+    with Instant Exchange."
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/coinfabrik.png
+  humanURL: https://www.coinfabrik.com
+  baseURL: https://api.coinbase.com//v2
+  tags: SaaS, Blockchain, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/coinfabrik/accountsaccount-idaddresses-post-openapi.md
+- name: Coinbase API - Show an address
+  x-api-slug: accountsaccount-idaddressesaddress-id-get
+  description: "Show an individual address for an account.\nRegular bitcoin address
+    can be used in place of address_id but the address has to be associated to the
+    correct account.\n  \n*Important* Addresses should be considered one time use
+    only."
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/coinfabrik.png
+  humanURL: https://www.coinfabrik.com
+  baseURL: https://api.coinbase.com//v2
+  tags: SaaS, Blockchain, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/coinfabrik/accountsaccount-idaddressesaddress-id-get-openapi.md
+- name: "Coinbase API - List address\u2019s transactions"
+  x-api-slug: accountsaccount-idaddressesaddress-idtransactions-get
+  description: list transactions that have been sent to a specific address. Regular
+    bitcoin address can be used in place of address_id but the address has to be associated
+    to the correct account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/coinfabrik.png
+  humanURL: https://www.coinfabrik.com
+  baseURL: https://api.coinbase.com//v2
+  tags: SaaS, Blockchain, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/coinfabrik/accountsaccount-idaddressesaddress-idtransactions-get-openapi.md
+- name: Coinbase API - Create address
+  x-api-slug: accountsaccount-idaddresses-post
+  description: "Creates a new address for an account. As all the arguments are optinal,
+    it\u2019s possible just to do a empty POST which will create a new address. This
+    is handy if you need to create new receive addresses for an account on-demand.\nAddresses
+    can be created for all account types. With fiat accounts, funds will be received
+    with Instant Exchange."
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/coinfabrik.png
+  humanURL: https://www.coinfabrik.com
+  baseURL: https://api.coinbase.com//v2
+  tags: SaaS, Blockchain, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/coinfabrik/accountsaccount-idaddresses-post-openapi.md
+- name: Coinbase API - Show an address
+  x-api-slug: accountsaccount-idaddressesaddress-id-get
+  description: "Show an individual address for an account.\nRegular bitcoin address
+    can be used in place of address_id but the address has to be associated to the
+    correct account.\n  \n*Important* Addresses should be considered one time use
+    only."
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/coinfabrik.png
+  humanURL: https://www.coinfabrik.com
+  baseURL: https://api.coinbase.com//v2
+  tags: SaaS, Blockchain, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/coinfabrik/accountsaccount-idaddressesaddress-id-get-openapi.md
+- name: Coinbase API - List addresses
+  x-api-slug: accountsaccount-idaddresses-get
+  description: |-
+    Lists addresses for an account.
+
+    *Important*: Addresses should be considered one time use only.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/coinfabrik.png
+  humanURL: https://www.coinfabrik.com
+  baseURL: https://api.coinbase.com//v2
+  tags: SaaS, Blockchain, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/coinfabrik/accountsaccount-idaddresses-get-openapi.md
+- name: "Coinbase API - List address\u2019s transactions"
+  x-api-slug: accountsaccount-idaddressesaddress-idtransactions-get
+  description: list transactions that have been sent to a specific address. Regular
+    bitcoin address can be used in place of address_id but the address has to be associated
+    to the correct account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/coinfabrik.png
+  humanURL: https://www.coinfabrik.com
+  baseURL: https://api.coinbase.com//v2
+  tags: SaaS, Blockchain, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/coinfabrik/accountsaccount-idaddressesaddress-idtransactions-get-openapi.md
+- name: Coinbase API - Show an address
+  x-api-slug: accountsaccount-idaddressesaddress-id-get
+  description: "Show an individual address for an account.\nRegular bitcoin address
+    can be used in place of address_id but the address has to be associated to the
+    correct account.\n  \n*Important* Addresses should be considered one time use
+    only."
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/coinfabrik.png
+  humanURL: https://www.coinfabrik.com
+  baseURL: https://api.coinbase.com//v2
+  tags: SaaS, Blockchain, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/coinfabrik/accountsaccount-idaddressesaddress-id-get-openapi.md
+- name: Coinbase API - Create address
+  x-api-slug: accountsaccount-idaddresses-post
+  description: "Creates a new address for an account. As all the arguments are optinal,
+    it\u2019s possible just to do a empty POST which will create a new address. This
+    is handy if you need to create new receive addresses for an account on-demand.\nAddresses
+    can be created for all account types. With fiat accounts, funds will be received
+    with Instant Exchange."
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/coinfabrik.png
+  humanURL: https://www.coinfabrik.com
+  baseURL: https://api.coinbase.com//v2
+  tags: SaaS, Blockchain, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/coinfabrik/accountsaccount-idaddresses-post-openapi.md
+- name: "Coinbase API - List address\u2019s transactions"
+  x-api-slug: accountsaccount-idaddressesaddress-idtransactions-get
+  description: list transactions that have been sent to a specific address. Regular
+    bitcoin address can be used in place of address_id but the address has to be associated
+    to the correct account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/coinfabrik.png
+  humanURL: https://www.coinfabrik.com
+  baseURL: https://api.coinbase.com//v2
+  tags: SaaS, Blockchain, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/coinfabrik/accountsaccount-idaddressesaddress-idtransactions-get-openapi.md
 x-common:
 - type: x-blog-rss
   url: https://blog.coinfabrik.com/feed/

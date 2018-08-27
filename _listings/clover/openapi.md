@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Clover
 x-complete: 1
@@ -179,4 +178,3 @@ paths:
       tags:
       - Merchants
       - Address
----

@@ -234,6 +234,103 @@ paths:
       - ""
       - Property
       - Address
+  /api/address/{id}/centerpoint:
+    put:
+      summary: Update the Center Point for an Address
+      description: Update the center point for an address.
+      operationId: Address_UpdateCenterPointByidByupdateCommand
+      x-api-path-slug: apiaddressidcenterpoint-put
+      parameters:
+      - in: path
+        name: id
+        description: The Id of the address to update
+      - in: header
+        name: Rezi-Api-Version
+        description: Specifies which version of the API to call
+      - in: body
+        name: updateCommand
+        description: The point details which will be updated on the address
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Center
+      - Pointan
+      - Ress
+  /api/address/{id}/viewpoints/add:
+    put:
+      summary: Adds one or more View Points for an Address
+      description: Adds one or more view points for an address.
+      operationId: Address_AddViewPointsByidByviewPoints
+      x-api-path-slug: apiaddressidviewpointsadd-put
+      parameters:
+      - in: path
+        name: id
+        description: The Id of the address to update
+      - in: header
+        name: Rezi-Api-Version
+        description: Specifies which version of the API to call
+      - in: body
+        name: viewPoints
+        description: One or more viewpoints to add
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - S
+      - More
+      - View
+      - Pointsan
+      - Ress
+  /api/people/{id}/addaddress:
+    put:
+      summary: Add an Address to a Person
+      description: Add an address to a person.
+      operationId: People_AddAddressByidByaddress
+      x-api-path-slug: apipeopleidaddaddress-put
+      parameters:
+      - in: body
+        name: address
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: id
+      - in: header
+        name: Rezi-Api-Version
+        description: Specifies which version of the API to call
+      responses:
+        200:
+          description: OK
+      tags:
+      - Ress
+      - To
+      - Person
+  /api/people/{id}/removeaddress/{addressId}:
+    put:
+      summary: Remove an Address from a Person
+      description: Remove an address from a person.
+      operationId: People_RemoveAddressByidByaddressId
+      x-api-path-slug: apipeopleidremoveaddressaddressid-put
+      parameters:
+      - in: path
+        name: addressId
+      - in: path
+        name: id
+      - in: header
+        name: Rezi-Api-Version
+        description: Specifies which version of the API to call
+      responses:
+        200:
+          description: OK
+      tags:
+      - Remove
+      - Ress
+      - From
+      - Person
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

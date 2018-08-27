@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28734-www-
 x-kinRank: "7"
 x-alexaRank: "884775"
 tags: Addresses
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/paretonetwork/apis.md
 specificationVersion: "0.14"
 apis:
@@ -93,6 +93,46 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/paretonetwork/userinfoaddress-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/paretonetwork/userinfoaddress-get-openapi.md
+- name: PARETO NETWORK API - Get the profile of a specific user
+  x-api-slug: userinfoaddress-get
+  description: Get the profile of a specific user.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28734-www-pareto-network.jpg
+  humanURL: https://www.pareto.network
+  baseURL: https:////
+  tags: Technology, Financial, Data, Blockchain, General Data, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/paretonetwork/userinfoaddress-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/paretonetwork/userinfoaddress-get-openapi.md
+- name: PARETO NETWORK API - Get the information of a specific user
+  x-api-slug: addressaddress-get
+  description: Get the information of a specific user.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28734-www-pareto-network.jpg
+  humanURL: https://www.pareto.network
+  baseURL: https:////
+  tags: Technology, Financial, Data, Blockchain, General Data, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/paretonetwork/addressaddress-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/paretonetwork/addressaddress-get-openapi.md
+- name: PARETO NETWORK API - Get the information of the current user
+  x-api-slug: address-get
+  description: Get the information of the current user. The current user is fetched
+    using the auth cookie.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28734-www-pareto-network.jpg
+  humanURL: https://www.pareto.network
+  baseURL: https:////
+  tags: Technology, Financial, Data, Blockchain, General Data, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/paretonetwork/address-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/paretonetwork/address-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://paralleldots.api.gallery.streamdata.io

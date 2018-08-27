@@ -7,11 +7,91 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykk
 x-kinRank: "8"
 x-alexaRank: "152167"
 tags: Addresses
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/lykke/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Wallet_Api - Get API Hotwallet Addresses Destinationaddress Asset Vality
+  x-api-slug: apihotwalletaddressesdestinationaddressassetidvalidity-get
+  description: Get api hotwallet addresses destinationaddress asset vality.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/lykke/apihotwalletaddressesdestinationaddressassetidvalidity-get-openapi.md
+- name: Wallet_Api - Add API Email Privatewalletaddress
+  x-api-slug: apiemailprivatewalletaddress-post
+  description: Add api email privatewalletaddress.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/lykke/apiemailprivatewalletaddress-post-openapi.md
+- name: Wallet_Api - Add API Emailmewalletaddress
+  x-api-slug: apiemailmewalletaddress-post
+  description: Add api emailmewalletaddress.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/lykke/apiemailmewalletaddress-post-openapi.md
+- name: Wallet_Api - Get API Ethereum History Address
+  x-api-slug: apiethereumhistoryaddress-get
+  description: Get api ethereum history address.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/lykke/apiethereumhistoryaddress-get-openapi.md
+- name: Wallet_Api - Get API Hotwallet Addresses Destinationaddress Asset Vality
+  x-api-slug: apihotwalletaddressesdestinationaddressassetidvalidity-get
+  description: Get api hotwallet addresses destinationaddress asset vality.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/lykke/apihotwalletaddressesdestinationaddressassetidvalidity-get-openapi.md
+- name: Wallet_Api - Get API Pubkeyaddressvalation
+  x-api-slug: apipubkeyaddressvalidation-get
+  description: Get api pubkeyaddressvalation.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/lykke/apipubkeyaddressvalidation-get-openapi.md
+- name: Wallet_Api - Get API Refundaddress
+  x-api-slug: apirefundaddress-get
+  description: Get api refundaddress.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/lykke/apirefundaddress-get-openapi.md
+- name: Wallet_Api - Add API Refundaddress
+  x-api-slug: apirefundaddress-post
+  description: Add api refundaddress.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg
+  humanURL: https://lykke.com
+  baseURL: https:////
+  tags: Technology, Marketplace, Blockchain, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/lykke/apirefundaddress-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://lyft.api.gallery.streamdata.io

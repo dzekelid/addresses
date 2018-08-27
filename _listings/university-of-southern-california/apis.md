@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1740-unive
 x-kinRank: "7"
 x-alexaRank: "1735"
 tags: Addresses
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/university-of-southern-california/apis.md
 specificationVersion: "0.14"
 apis: []

@@ -12,11 +12,176 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "23096"
 tags: Addresses
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/clover/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: ' - Create an email address for a customer'
+  x-api-slug: v3merchantsmidcustomerscustomeridemail-addresses-post
+  description: Creates an email address associated to a merchant's customer.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png
+  humanURL: https://www.clover.com
+  baseURL: https:///merchants/https://api.clover.com
+  tags: SaaS, Technology, Mobile, internet, Point of Sale, Pos, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/clover/v3merchantsmidcustomerscustomeridemail-addresses-post-openapi.md
+- name: ' - Update an email address for a customer'
+  x-api-slug: v3merchantsmidcustomerscustomeridemail-addressesemailid-post
+  description: Updates a merchant's customer's email address.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png
+  humanURL: https://www.clover.com
+  baseURL: https:///merchants/https://api.clover.com
+  tags: SaaS, Technology, Mobile, internet, Point of Sale, Pos, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/clover/v3merchantsmidcustomerscustomeridemail-addressesemailid-post-openapi.md
+- name: ' - Delete a customer email address'
+  x-api-slug: v3merchantsmidcustomerscustomeridemail-addressesemailid-delete
+  description: Deletes a merchant's customer's email address.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png
+  humanURL: https://www.clover.com
+  baseURL: https:///merchants/https://api.clover.com
+  tags: SaaS, Technology, Mobile, internet, Point of Sale, Pos, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/clover/v3merchantsmidcustomerscustomeridemail-addressesemailid-delete-openapi.md
+- name: ' - Create an address for a customer'
+  x-api-slug: v3merchantsmidcustomerscustomeridaddresses-post
+  description: Creates an address associated to a merchant's customer.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png
+  humanURL: https://www.clover.com
+  baseURL: https:///merchants/https://api.clover.com
+  tags: SaaS, Technology, Mobile, internet, Point of Sale, Pos, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/clover/v3merchantsmidcustomerscustomeridaddresses-post-openapi.md
+- name: ' - Update an address for a customer'
+  x-api-slug: v3merchantsmidcustomerscustomeridaddressesaddressid-post
+  description: Updates a merchant's customer's address.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png
+  humanURL: https://www.clover.com
+  baseURL: https:///merchants/https://api.clover.com
+  tags: SaaS, Technology, Mobile, internet, Point of Sale, Pos, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/clover/v3merchantsmidcustomerscustomeridaddressesaddressid-post-openapi.md
+- name: ' - Delete a customer address'
+  x-api-slug: v3merchantsmidcustomerscustomeridaddressesaddressid-delete
+  description: Deletes a merchant's customer's address.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png
+  humanURL: https://www.clover.com
+  baseURL: https:///merchants/https://api.clover.com
+  tags: SaaS, Technology, Mobile, internet, Point of Sale, Pos, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/clover/v3merchantsmidcustomerscustomeridaddressesaddressid-delete-openapi.md
+- name: ' - Get a merchant''s address'
+  x-api-slug: v3merchantsmidaddress-get
+  description: Get a merchant's address.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png
+  humanURL: https://www.clover.com
+  baseURL: https:///merchants/https://api.clover.com
+  tags: SaaS, Technology, Mobile, internet, Point of Sale, Pos, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/clover/v3merchantsmidaddress-get-openapi.md
+- name: ' - Update an address for a customer'
+  x-api-slug: v3merchantsmidcustomerscustomeridaddressesaddressid-post
+  description: Updates a merchant's customer's address.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png
+  humanURL: https://www.clover.com
+  baseURL: https:///merchants/https://api.clover.com
+  tags: SaaS, Technology, Mobile, internet, Point of Sale, Pos, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/clover/v3merchantsmidcustomerscustomeridaddressesaddressid-post-openapi.md
+- name: ' - Delete a customer address'
+  x-api-slug: v3merchantsmidcustomerscustomeridaddressesaddressid-delete
+  description: Deletes a merchant's customer's address.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png
+  humanURL: https://www.clover.com
+  baseURL: https:///merchants/https://api.clover.com
+  tags: SaaS, Technology, Mobile, internet, Point of Sale, Pos, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/clover/v3merchantsmidcustomerscustomeridaddressesaddressid-delete-openapi.md
+- name: ' - Get a merchant''s address'
+  x-api-slug: v3merchantsmidaddress-get
+  description: Get a merchant's address.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png
+  humanURL: https://www.clover.com
+  baseURL: https:///merchants/https://api.clover.com
+  tags: SaaS, Technology, Mobile, internet, Point of Sale, Pos, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/clover/v3merchantsmidaddress-get-openapi.md
+- name: ' - Update an address for a customer'
+  x-api-slug: v3merchantsmidcustomerscustomeridaddressesaddressid-post
+  description: Updates a merchant's customer's address.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png
+  humanURL: https://www.clover.com
+  baseURL: https:///merchants/https://api.clover.com
+  tags: SaaS, Technology, Mobile, internet, Point of Sale, Pos, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/clover/v3merchantsmidcustomerscustomeridaddressesaddressid-post-openapi.md
+- name: ' - Delete a customer address'
+  x-api-slug: v3merchantsmidcustomerscustomeridaddressesaddressid-delete
+  description: Deletes a merchant's customer's address.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png
+  humanURL: https://www.clover.com
+  baseURL: https:///merchants/https://api.clover.com
+  tags: SaaS, Technology, Mobile, internet, Point of Sale, Pos, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/clover/v3merchantsmidcustomerscustomeridaddressesaddressid-delete-openapi.md
+- name: ' - Get a merchant''s address'
+  x-api-slug: v3merchantsmidaddress-get
+  description: Get a merchant's address.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png
+  humanURL: https://www.clover.com
+  baseURL: https:///merchants/https://api.clover.com
+  tags: SaaS, Technology, Mobile, internet, Point of Sale, Pos, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/clover/v3merchantsmidaddress-get-openapi.md
+- name: ' - Delete a customer address'
+  x-api-slug: v3merchantsmidcustomerscustomeridaddressesaddressid-delete
+  description: Deletes a merchant's customer's address.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png
+  humanURL: https://www.clover.com
+  baseURL: https:///merchants/https://api.clover.com
+  tags: SaaS, Technology, Mobile, internet, Point of Sale, Pos, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/clover/v3merchantsmidcustomerscustomeridaddressesaddressid-delete-openapi.md
+- name: ' - Update an address for a customer'
+  x-api-slug: v3merchantsmidcustomerscustomeridaddressesaddressid-post
+  description: Updates a merchant's customer's address.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png
+  humanURL: https://www.clover.com
+  baseURL: https:///merchants/https://api.clover.com
+  tags: SaaS, Technology, Mobile, internet, Point of Sale, Pos, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/clover/v3merchantsmidcustomerscustomeridaddressesaddressid-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://cloudflare.api.gallery.streamdata.io

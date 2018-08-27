@@ -1,944 +1,669 @@
 {
-	"name": "Dezrez",
-	"x-slug": "dezrez",
-	"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
-	"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28888-www-dezrez-com.jpg",
-	"x-kinRank": "7",
-	"x-alexaRank": "385559",
-	"tags": "Addresses",
-	"created": "2018-08-24",
-	"modified": "2018-08-24",
-	"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apis.md",
+	"name": "Streadata.io API Gallery - Addresses",
+	"description": "This is a repository of addresses APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/addresses.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://addresses.streamdata.gallery/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [
 		{
-			"name": "Dezrez",
-			"x-api-slug": "dezrez",
-			"description": "",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28888-www-dezrez-com.jpg",
-			"humanURL": "https:\/\/www.dezrez.com",
-			"baseURL": "https:\/\/api.dezrez.com\/\/",
-			"tags": "SaaS, Technology, Real Estate, Properties, Service API, Relative Data",
+			"name": "SendGrid",
+			"x-api-slug": "sendgrid",
+			"description": "Delivering your transactional and marketing emails through the worlds largest cloud-based email delivery platform. Send with confidence.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg",
+			"humanURL": "http://sendgrid.com",
+			"baseURL": "https:///",
+			"tags": "Addresses",
 			"properties": [
 				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipropertysuggest-get-postman.md"
-				},
-				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipropertysuggest-get-openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/sendgrid/openapi.md"
 				}
 			]
 		},
 		{
-			"name": "Dezrez",
-			"x-api-slug": "dezrez",
-			"description": "",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28888-www-dezrez-com.jpg",
-			"humanURL": "https:\/\/www.dezrez.com",
-			"baseURL": "https:\/\/api.dezrez.com\/\/",
-			"tags": "SaaS, Technology, Real Estate, Properties, Service API, Relative Data",
+			"name": "Twilio",
+			"x-api-slug": "twilio",
+			"description": "Cloud communications platform for building SMS, Voice & Messaging applications on an API built for global scale. Get started with a free trial.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg",
+			"humanURL": "http://www.twilio.com",
+			"baseURL": "https://api.twilio.com//2010-04-01/",
+			"tags": "Addresses",
 			"properties": [
 				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipropertysuggest-get-postman.md"
-				},
-				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipropertysuggest-get-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressid-get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressid-get-openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/openapi.md"
 				}
 			]
 		},
 		{
-			"name": "Dezrez",
-			"x-api-slug": "dezrez",
-			"description": "",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28888-www-dezrez-com.jpg",
-			"humanURL": "https:\/\/www.dezrez.com",
-			"baseURL": "https:\/\/api.dezrez.com\/\/",
-			"tags": "SaaS, Technology, Real Estate, Properties, Service API, Relative Data",
+			"name": "Reverb",
+			"x-api-slug": "reverb",
+			"description": "Reverb&#8217;s mission is to connect people with meaningful content.Reverb was created to find and connect the rich associations between words, ideas, content, and people. Through our products, we enhance broader knowledge around favorite topics by surfacing interesting information readers might not uncover on their own. We make tools for content understanding at every level from the single word on up. Wordnik: Get a full view of any word you???re interested in, with definitions, example sentences, related words, tweets from Twitter, pictures from Flickr, and much more.Reverb for Publishers: Reverb for Publishers brings relevant content to web audiences and surfaces additional content for publishers.Reverb for Developers: Reverb is committed to the open-source community and is proudly contributing infrastructure software to power applications and enterprises both small and gigantic. Our involvement with the Wordnik API, Scalatra, Swagger and Atmosphere is detailed on our site.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png",
+			"humanURL": "https://helloreverb.com/app",
+			"baseURL": "https://api.reverb.com//api",
+			"tags": "Addresses",
 			"properties": [
 				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipropertysuggest-get-postman.md"
-				},
-				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipropertysuggest-get-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressid-get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressid-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressidviewpointsedit-put-openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/openapi.md"
 				}
 			]
 		},
 		{
-			"name": "Dezrez",
-			"x-api-slug": "dezrez",
-			"description": "",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28888-www-dezrez-com.jpg",
-			"humanURL": "https:\/\/www.dezrez.com",
-			"baseURL": "https:\/\/api.dezrez.com\/\/",
-			"tags": "SaaS, Technology, Real Estate, Properties, Service API, Relative Data",
+			"name": "AT&T Dev Program",
+			"x-api-slug": "att-dev-program",
+			"description": "AT&T Official Site. Premium entertainment, the latest cell phones & tablets, unlimited data plans, and high-speed internet. Join the nations best network today!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/156-at&t-dev-program.jpg",
+			"humanURL": "http://att.com",
+			"baseURL": "https:///",
+			"tags": "Addresses",
 			"properties": [
 				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipropertysuggest-get-postman.md"
-				},
-				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipropertysuggest-get-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressid-get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressid-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressidviewpointsedit-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressidviewpointsremove-put-openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/att-dev-program/openapi.md"
 				}
 			]
 		},
 		{
-			"name": "Dezrez",
-			"x-api-slug": "dezrez",
-			"description": "",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28888-www-dezrez-com.jpg",
-			"humanURL": "https:\/\/www.dezrez.com",
-			"baseURL": "https:\/\/api.dezrez.com\/\/",
-			"tags": "SaaS, Technology, Real Estate, Properties, Service API, Relative Data",
+			"name": "Context.IO",
+			"x-api-slug": "context-io",
+			"description": "Create simple email webhooks and code against a free, RESTful, IMAP API.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg",
+			"humanURL": "http://context.io/",
+			"baseURL": "https://api.context.io//2.0/",
+			"tags": "Addresses",
 			"properties": [
 				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipropertysuggest-get-postman.md"
-				},
-				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipropertysuggest-get-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressid-get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressid-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressidviewpointsedit-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressidviewpointsremove-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apicredentialsemailsyncusernamepassword-post-openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/openapi.md"
 				}
 			]
 		},
 		{
-			"name": "Dezrez",
-			"x-api-slug": "dezrez",
-			"description": "",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28888-www-dezrez-com.jpg",
-			"humanURL": "https:\/\/www.dezrez.com",
-			"baseURL": "https:\/\/api.dezrez.com\/\/",
-			"tags": "SaaS, Technology, Real Estate, Properties, Service API, Relative Data",
+			"name": "Etsy",
+			"x-api-slug": "etsy",
+			"description": "Find handmade, vintage, and unique goods that express who you are.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg",
+			"humanURL": "http://www.etsy.com/",
+			"baseURL": "https://openapi.etsy.com//v2/private/",
+			"tags": "Addresses",
 			"properties": [
 				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipropertysuggest-get-postman.md"
-				},
-				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipropertysuggest-get-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressid-get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressid-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressidviewpointsedit-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressidviewpointsremove-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apicredentialsemailsyncusernamepassword-post-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipeoplefindbyemail-get-openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/openapi.md"
 				}
 			]
 		},
 		{
-			"name": "Dezrez",
-			"x-api-slug": "dezrez",
-			"description": "",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28888-www-dezrez-com.jpg",
-			"humanURL": "https:\/\/www.dezrez.com",
-			"baseURL": "https:\/\/api.dezrez.com\/\/",
-			"tags": "SaaS, Technology, Real Estate, Properties, Service API, Relative Data",
+			"name": "FullContact",
+			"x-api-slug": "fullcontact",
+			"description": "Build a clearer picture of your customers in minutes with our data-focused APIs. Manage your personal or teams contacts with our contact apps.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/205-fullcontact.jpg",
+			"humanURL": "http://fullcontact.com",
+			"baseURL": "https://api.fullcontact.com//",
+			"tags": "Addresses",
 			"properties": [
 				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipropertysuggest-get-postman.md"
-				},
-				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipropertysuggest-get-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressid-get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressid-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressidviewpointsedit-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressidviewpointsremove-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apicredentialsemailsyncusernamepassword-post-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipeoplefindbyemail-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipropertyidupdateaddress-put-openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/fullcontact/openapi.md"
 				}
 			]
 		},
 		{
-			"name": "Dezrez",
-			"x-api-slug": "dezrez",
-			"description": "",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28888-www-dezrez-com.jpg",
-			"humanURL": "https:\/\/www.dezrez.com",
-			"baseURL": "https:\/\/api.dezrez.com\/\/",
-			"tags": "SaaS, Technology, Real Estate, Properties, Service API, Relative Data",
+			"name": "PayPal",
+			"x-api-slug": "paypal",
+			"description": "PayPal is the faster, safer way to send money, make an online payment, receive money or set up a merchant account.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg",
+			"humanURL": "https://paypal.com",
+			"baseURL": "https://svcs.sandbox.paypal.com//",
+			"tags": "Addresses",
 			"properties": [
 				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipropertysuggest-get-postman.md"
-				},
-				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipropertysuggest-get-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressid-get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressid-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressidviewpointsedit-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressidviewpointsremove-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apicredentialsemailsyncusernamepassword-post-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipeoplefindbyemail-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipropertyidupdateaddress-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressid-get-openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/paypal/openapi.md"
 				}
 			]
 		},
 		{
-			"name": "Dezrez",
-			"x-api-slug": "dezrez",
-			"description": "",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28888-www-dezrez-com.jpg",
-			"humanURL": "https:\/\/www.dezrez.com",
-			"baseURL": "https:\/\/api.dezrez.com\/\/",
-			"tags": "SaaS, Technology, Real Estate, Properties, Service API, Relative Data",
+			"name": "Tropo",
+			"x-api-slug": "tropo",
+			"description": "Hosted Voice and SMS API",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/264-tropo.jpg",
+			"humanURL": "https://www.tropo.com/",
+			"baseURL": "https://api.tropo.com//v1/",
+			"tags": "Addresses",
 			"properties": [
 				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipropertysuggest-get-postman.md"
-				},
-				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipropertysuggest-get-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressid-get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressid-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressidviewpointsedit-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressidviewpointsremove-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apicredentialsemailsyncusernamepassword-post-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipeoplefindbyemail-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipropertyidupdateaddress-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressid-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressidviewpointsedit-put-openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tropo/openapi.md"
 				}
 			]
 		},
 		{
-			"name": "Dezrez",
-			"x-api-slug": "dezrez",
-			"description": "",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28888-www-dezrez-com.jpg",
-			"humanURL": "https:\/\/www.dezrez.com",
-			"baseURL": "https:\/\/api.dezrez.com\/\/",
-			"tags": "SaaS, Technology, Real Estate, Properties, Service API, Relative Data",
+			"name": "MasterCard",
+			"x-api-slug": "mastercard",
+			"description": "Mastercard is a leading global payments & technology company that connects consumers, businesses, merchants, issuers & governments around the world.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/366-mastercard.jpg",
+			"humanURL": "https://developer.mastercard.com/",
+			"baseURL": "https://eas5stl0.mastercard.int:13046//z0/core/v1",
+			"tags": "Addresses",
 			"properties": [
 				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipropertysuggest-get-postman.md"
-				},
-				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipropertysuggest-get-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressid-get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressid-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressidviewpointsedit-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressidviewpointsremove-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apicredentialsemailsyncusernamepassword-post-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipeoplefindbyemail-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipropertyidupdateaddress-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressid-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressidviewpointsedit-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressidviewpointsremove-put-openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/mastercard/openapi.md"
 				}
 			]
 		},
 		{
-			"name": "Dezrez",
-			"x-api-slug": "dezrez",
-			"description": "",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28888-www-dezrez-com.jpg",
-			"humanURL": "https:\/\/www.dezrez.com",
-			"baseURL": "https:\/\/api.dezrez.com\/\/",
-			"tags": "SaaS, Technology, Real Estate, Properties, Service API, Relative Data",
+			"name": "Postcode Anywhere",
+			"x-api-slug": "postcode-anywhere",
+			"description": "Postcode Anywhere is a UK-based company best known for its market-leading &lsquo;what&rsquo;s your postcode&rsquo; technology, used to quickly complete your address when buying online. It was established by Guy Mucklow and Jamie Turner in 2001. By seeing the internet value as a much more efficient information delivery medium than traditional methods - which typically involved burning data onto CDs and shipping out to the customer - Postcode Anywhere has turned the market upside down.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/370_logo.png",
+			"humanURL": "http://www.postcodeanywhere.co.uk/",
+			"baseURL": "https:///",
+			"tags": "Addresses",
 			"properties": [
 				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipropertysuggest-get-postman.md"
-				},
-				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipropertysuggest-get-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressid-get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressid-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressidviewpointsedit-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressidviewpointsremove-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apicredentialsemailsyncusernamepassword-post-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipeoplefindbyemail-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipropertyidupdateaddress-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressid-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressidviewpointsedit-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressidviewpointsremove-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apicredentialsemailsyncusernamepassword-post-openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/postcode-anywhere/openapi.md"
 				}
 			]
 		},
 		{
-			"name": "Dezrez",
-			"x-api-slug": "dezrez",
-			"description": "",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28888-www-dezrez-com.jpg",
-			"humanURL": "https:\/\/www.dezrez.com",
-			"baseURL": "https:\/\/api.dezrez.com\/\/",
-			"tags": "SaaS, Technology, Real Estate, Properties, Service API, Relative Data",
+			"name": "Service Objects",
+			"x-api-slug": "service-objects",
+			"description": "With our suite of data verification APIs for phone, email, address and more, you can keep your businesss database clean, accurate, and up to date.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/371-service-objects.jpg",
+			"humanURL": "http://www.serviceobjects.com/",
+			"baseURL": "https:///",
+			"tags": "Addresses",
 			"properties": [
 				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipropertysuggest-get-postman.md"
-				},
-				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipropertysuggest-get-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressid-get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressid-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressidviewpointsedit-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressidviewpointsremove-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apicredentialsemailsyncusernamepassword-post-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipeoplefindbyemail-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipropertyidupdateaddress-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressid-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressidviewpointsedit-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressidviewpointsremove-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apicredentialsemailsyncusernamepassword-post-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipeoplefindbyemail-get-openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/service-objects/openapi.md"
 				}
 			]
 		},
 		{
-			"name": "Dezrez",
-			"x-api-slug": "dezrez",
-			"description": "",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28888-www-dezrez-com.jpg",
-			"humanURL": "https:\/\/www.dezrez.com",
-			"baseURL": "https:\/\/api.dezrez.com\/\/",
-			"tags": "SaaS, Technology, Real Estate, Properties, Service API, Relative Data",
+			"name": "SmartyStreets",
+			"x-api-slug": "smartystreets",
+			"description": "Address Verification tools for USPS & International Addresses. Verify addresses with our easy-to-use list processing tools, APIs with 100% uptime, and more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/433-smartystreets.jpg",
+			"humanURL": "http://www.smartystreets.com/Products/LiveAddress-API/",
+			"baseURL": "https:///",
+			"tags": "Addresses",
 			"properties": [
 				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipropertysuggest-get-postman.md"
-				},
-				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipropertysuggest-get-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressid-get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressid-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressidviewpointsedit-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressidviewpointsremove-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apicredentialsemailsyncusernamepassword-post-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipeoplefindbyemail-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipropertyidupdateaddress-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressid-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressidviewpointsedit-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressidviewpointsremove-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apicredentialsemailsyncusernamepassword-post-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipeoplefindbyemail-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipropertyidupdateaddress-put-openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/smartystreets/openapi.md"
 				}
 			]
 		},
 		{
-			"name": "Dezrez",
-			"x-api-slug": "dezrez",
-			"description": "",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28888-www-dezrez-com.jpg",
-			"humanURL": "https:\/\/www.dezrez.com",
-			"baseURL": "https:\/\/api.dezrez.com\/\/",
-			"tags": "SaaS, Technology, Real Estate, Properties, Service API, Relative Data",
+			"name": "SmartyStreets",
+			"x-api-slug": "smartystreets",
+			"description": "Address Verification tools for USPS & International Addresses. Verify addresses with our easy-to-use list processing tools, APIs with 100% uptime, and more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/464-smartystreets.jpg",
+			"humanURL": "http://www.smartystreets.com/Products/LiveAddress-API/",
+			"baseURL": "https:///",
+			"tags": "Addresses",
 			"properties": [
 				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipropertysuggest-get-postman.md"
-				},
-				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipropertysuggest-get-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressid-get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressid-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressidviewpointsedit-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressidviewpointsremove-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apicredentialsemailsyncusernamepassword-post-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipeoplefindbyemail-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipropertyidupdateaddress-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressid-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressidviewpointsedit-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressidviewpointsremove-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apicredentialsemailsyncusernamepassword-post-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipeoplefindbyemail-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipropertyidupdateaddress-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressidcenterpoint-put-openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/smartystreets/openapi.md"
 				}
 			]
 		},
 		{
-			"name": "Dezrez",
-			"x-api-slug": "dezrez",
-			"description": "",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28888-www-dezrez-com.jpg",
-			"humanURL": "https:\/\/www.dezrez.com",
-			"baseURL": "https:\/\/api.dezrez.com\/\/",
-			"tags": "SaaS, Technology, Real Estate, Properties, Service API, Relative Data",
+			"name": "Atlassian",
+			"x-api-slug": "atlassian",
+			"description": "Millions of users globally rely on Atlassian products every day for improving software development, project management, collaboration, and code quality.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg",
+			"humanURL": "http://atlassian.com/",
+			"baseURL": "https:////",
+			"tags": "Addresses",
 			"properties": [
 				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipropertysuggest-get-postman.md"
-				},
-				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipropertysuggest-get-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressid-get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressid-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressidviewpointsedit-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressidviewpointsremove-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apicredentialsemailsyncusernamepassword-post-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipeoplefindbyemail-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipropertyidupdateaddress-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressid-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressidviewpointsedit-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressidviewpointsremove-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apicredentialsemailsyncusernamepassword-post-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipeoplefindbyemail-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipropertyidupdateaddress-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressidcenterpoint-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressidviewpointsadd-put-openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/atlassian/openapi.md"
 				}
 			]
 		},
 		{
-			"name": "Dezrez",
-			"x-api-slug": "dezrez",
-			"description": "",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28888-www-dezrez-com.jpg",
-			"humanURL": "https:\/\/www.dezrez.com",
-			"baseURL": "https:\/\/api.dezrez.com\/\/",
-			"tags": "SaaS, Technology, Real Estate, Properties, Service API, Relative Data",
+			"name": "Instructure",
+			"x-api-slug": "instructure",
+			"description": "Instructure makes software that makes smarter people. Products include Canvas LMS, Bridge and Canvas Network.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg",
+			"humanURL": "http://instructure.com",
+			"baseURL": "https://canvas.instructure.com//api/v1",
+			"tags": "Addresses",
 			"properties": [
 				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipropertysuggest-get-postman.md"
-				},
-				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipropertysuggest-get-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressid-get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressid-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressidviewpointsedit-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressidviewpointsremove-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apicredentialsemailsyncusernamepassword-post-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipeoplefindbyemail-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipropertyidupdateaddress-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressid-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressidviewpointsedit-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressidviewpointsremove-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apicredentialsemailsyncusernamepassword-post-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipeoplefindbyemail-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipropertyidupdateaddress-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressidcenterpoint-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressidviewpointsadd-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipeopleidaddaddress-put-openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/instructure/openapi.md"
 				}
 			]
 		},
 		{
-			"name": "Dezrez",
-			"x-api-slug": "dezrez",
-			"description": "",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28888-www-dezrez-com.jpg",
-			"humanURL": "https:\/\/www.dezrez.com",
-			"baseURL": "https:\/\/api.dezrez.com\/\/",
-			"tags": "SaaS, Technology, Real Estate, Properties, Service API, Relative Data",
+			"name": "T2A API",
+			"x-api-slug": "t2a-api",
+			"description": "Simunix pioneered the UK&#8217;s first directory enquiries website - ukphonebook.com - and has been providing directory solutions to many of the UK&#8217;s top organisations since 1999.Simunix was established in 1998 by Managing Director, John Lewis and became the first non-telecom company to license the UK&#8217;s national directory database. In 1999, it became one of the first to set up a free online directory enquiries service - ukphonebook.com.Building on the popularity of ukphonebook.com, Corporate ukphonebook.com was created as a dedicated business service in 2000. It now supplies customers including Merseyside Police and Yorkshire Building Society with access to telephone and address information as well as the UK Electoral Roll.Further developments came in 2002 in response to the deregulation of voice directory enquiries services with the switch from the old access code to a range of competing services under the code 118xxx. Simunix took part in the high-profile number allocation lottery and chose 118080, 118365 and 118090 (for international directory enquiries). 118-Express was created at this time to coincide with the changes occurring in the industry sector.Most recent projects have included the development of TPS Manage, a TPS/CTPS check facility, and T2A, a powerful API for finding, validating and verifying data.Simunix now supplies its range of directory products and services to most private and public sectors including, police, banking, legal, local authorities and many more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/932_logo.jpg",
+			"humanURL": "http://t2a.co",
+			"baseURL": "https:///",
+			"tags": "Addresses",
 			"properties": [
 				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipropertysuggest-get-postman.md"
-				},
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/t2a-api/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Philly Address Live",
+			"x-api-slug": "philly-address-live",
+			"description": "",
+			"image": "",
+			"humanURL": "http://api.phillyaddress.com/",
+			"baseURL": "https:///",
+			"tags": "Addresses",
+			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipropertysuggest-get-openapi.md"
-				},
-				{
-					"type": "x-postman-collection",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressid-get-postman.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressid-get-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressidviewpointsedit-put-openapi.md"
-				},
-				{
-					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressidviewpointsremove-put-openapi.md"
-				},
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/philly-address-live/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "University of Southern California",
+			"x-api-slug": "university-of-southern-california",
+			"description": "The University of Southern California is one of the worlds leading private research universities, established in 1880. An anchor institution in Los Angeles, a global center for arts, technology and international trade, USC enrolls more international s...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1740-university-of-southern-california.jpg",
+			"humanURL": "http://usc.edu",
+			"baseURL": "https:///",
+			"tags": "Addresses",
+			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apicredentialsemailsyncusernamepassword-post-openapi.md"
-				},
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/university-of-southern-california/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "OpenStreetMap",
+			"x-api-slug": "openstreetmap",
+			"description": "OpenStreetMap is the free wiki world map.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2017-openstreetmap.jpg",
+			"humanURL": "http://www.openstreetmap.org/",
+			"baseURL": "https:// http:///nominatim.openstreetmap.org",
+			"tags": "Addresses",
+			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipeoplefindbyemail-get-openapi.md"
-				},
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/openstreetmap/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "moltin",
+			"x-api-slug": "moltin",
+			"description": "The comprehensive eCommerce API infrastructure for any platform. Moltin handles data storage and eCommerce logic in the cloud so that you can focus on creating great customer experiences.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moltin-logo.png",
+			"humanURL": "https://moltin.com",
+			"baseURL": "https://api.moltin.com//",
+			"tags": "Addresses",
+			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipropertyidupdateaddress-put-openapi.md"
-				},
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/moltin/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Taxamo",
+			"x-api-slug": "taxamo",
+			"description": "We make global digital VAT/GST compliance possible. #DigitalTax #DigiTax #TaxTrends",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18644-taxamo.jpg",
+			"humanURL": "https://www.taxamo.com/",
+			"baseURL": "https://api.taxamo.com//",
+			"tags": "Addresses",
+			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressid-get-openapi.md"
-				},
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/taxamo/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "TigerText",
+			"x-api-slug": "tigertext",
+			"description": "TigerText is a multi-platform, secure, real-time messaging application for the enterprise that allows text messages to be deleted from both the senders and the receivers phones after expiration, which could be a set period of time or after reading. The messages cannot be saved, copied or forwarded by recipients. TigerText does this by storing the message on a company server, not the receiving and sending device, and deleting when the expiration conditions are met.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/tigertext-logo.png",
+			"humanURL": "http://www.tigertext.com/",
+			"baseURL": "https://developer.tigertext.me//v2/",
+			"tags": "Addresses",
+			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressidviewpointsedit-put-openapi.md"
-				},
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tigertext/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Shopify",
+			"x-api-slug": "shopify",
+			"description": "Shopify is a commerce platform that allows anyone to easily sell online at a retail location and everywhere in between. It offers a professional online storefront, a payment solution to accept credit cards, and the Shopify POS application to power retail sales.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Shopify-logo.png",
+			"humanURL": "https://www.shopify.com/",
+			"baseURL": "https://DefaultParameterValue:DefaultParameterValue@DefaultParameterValue.myshopify.com//",
+			"tags": "Addresses",
+			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressidviewpointsremove-put-openapi.md"
-				},
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/shopify/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "VictorOps",
+			"x-api-slug": "victorops",
+			"description": "VictorOps incident managament software gives DevOps observability, collaboration, & real-time alerting, to build, deploy, & operate software. Learn more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20023-victorops.jpg",
+			"humanURL": "http://victorops.com",
+			"baseURL": "https://api.victorops.com//",
+			"tags": "Addresses",
+			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apicredentialsemailsyncusernamepassword-post-openapi.md"
-				},
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/victorops/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "HERE",
+			"x-api-slug": "here",
+			"description": "HERE Technologies enables people, enterprises and cities around the world to harness the power of location and create innovative solutions that make our lives safer and more efficient. We transform information from devices, vehicles, infrastructure and...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20089-here-maps.jpg",
+			"humanURL": "https://developer.here.com",
+			"baseURL": "https://weather.cit.api.here.com//weather/1.0",
+			"tags": "Addresses",
+			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipeoplefindbyemail-get-openapi.md"
-				},
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/here/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Snowball",
+			"x-api-slug": "aws-snowball",
+			"description": "Snowball is a petabyte-scale data transport solution that uses secure appliances totransfer large amounts of datainto and out of theAWS cloud. Using Snowball addresses common challenges with large-scale data transfers including high network costs, long transfer times, and security concerns. Transferring data with Snowball is simple, fast, secure, and can be as little as one-fifth the cost of high-speed Internet.With Snowball, you don&rsquo;t need to write any code or purchase any hardware to transfer your data. Simply create a job in the AWS Management Console and a Snowball appliance will be automatically shipped to you*. Once it arrives, attach the appliance to your local network, download and run the Snowball client to establish a connection, and then use the client to select the file directories that you want to transfer to the appliance. The client will then encrypt and transfer the files to the appliance at high speed. Once the transfer is complete and the appliance is ready to be returned, the E Ink shipping label will automatically update and you can track the job status viaAmazon Simple Notification Service (SNS), text messages, or directly in the Console.Snowball uses multiple layers of security designed to protect your data including tamper-resistant enclosures, 256-bit encryption, and an industry-standard Trusted Platform Module (TPM) designed to ensure both security and full chain-of-custody of your data. Once the data transfer job has been processed and verified, AWS performs a software erasure of the Snowball appliance.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSImportExportSnowball.png",
+			"humanURL": "https://aws.amazon.com/snowball/",
+			"baseURL": ":///",
+			"tags": "Addresses",
+			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipropertyidupdateaddress-put-openapi.md"
-				},
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-snowball/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Simple Email Service",
+			"x-api-slug": "aws-simple-email-service",
+			"description": "Amazon Simple Email Service (Amazon SES) is a cost-effective email service built on the reliable and scalable infrastructure that Amazon.com developed to serve its own customer base. With Amazon SES, you can send and receive email with no required minimum commitments &ndash; you pay as you go, and you only pay for what you use.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonSES.png",
+			"humanURL": "https://aws.amazon.com/ses/",
+			"baseURL": ":///",
+			"tags": "Addresses",
+			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressidcenterpoint-put-openapi.md"
-				},
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-simple-email-service/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS EC2",
+			"x-api-slug": "aws-ec2",
+			"description": "Amazon Elastic Compute Cloud is a web service that provides resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers. Amazon EC2s simple web service interface allows you to obtain and configure capacity with minimal friction. It provides you with complete control of your computing resources and lets you run on Amazon&rsquo;s proven computing environment. Amazon EC2 reduces the time required to obtain and boot new server instances to minutes, allowing you to quickly scale capacity, both up and down, as your computing requirements change. Amazon EC2 changes the economics of computing by allowing you to pay only for capacity that you actually use. Amazon EC2 provides developers the tools to build failure resilient applications and isolate themselves from common failure scenarios.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png",
+			"humanURL": "https://aws.amazon.com/ec2/",
+			"baseURL": ":///",
+			"tags": "Addresses",
+			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apiaddressidviewpointsadd-put-openapi.md"
-				},
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Route 53",
+			"x-api-slug": "aws-route-53",
+			"description": "Amazon Route 53 is a highly available and scalable cloud Domain Name System (DNS) web service. It is designed to give developers and businesses an extremely reliable and cost effective way to route end users to Internet applications by translating names like www.example.com into the numeric IP addresses like 192.0.2.1 that computers use to connect to each other. Amazon Route 53 is fully compliant with IPv6 as well.Amazon Route 53 effectively connects user requests to infrastructure running in AWS &ndash; such as Amazon EC2 instances, Elastic Load Balancing load balancers, or Amazon S3 buckets &ndash; and can also be used to route users to infrastructure outside of AWS. You can use Amazon Route 53 to configure DNS health checks to route traffic to healthy endpoints or to independently monitor the health of your application and its endpoints. Amazon Route 53 Traffic Flow makes it easy for you to manage traffic globally through a variety of routing types, including Latency Based Routing, Geo DNS, and Weighted Round Robin&mdash;all of which can be combined with DNS Failover in order to enable a variety of low-latency, fault-tolerant architectures. Using Amazon Route 53 Traffic Flow&rsquo;s simple visual editor, you can easily manage how your end-users are routed to your application&rsquo;s endpoints&mdash;whether in a single AWS region or distributed around the globe. Amazon Route 53 also offers Domain Name Registration &ndash; you can purchase and manage domain names such as example.com and Amazon Route 53 will automatically configure DNS settings for your domains.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Networking_AmazonRoute53.png",
+			"humanURL": "https://aws.amazon.com/route53/",
+			"baseURL": ":///",
+			"tags": "Addresses",
+			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipeopleidaddaddress-put-openapi.md"
-				},
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-route-53/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Compute Engine",
+			"x-api-slug": "google-compute-engine",
+			"description": "Google Compute Engine delivers virtual machines running in Googles innovative data centers and worldwide fiber network. Compute Engines tooling and workflow support enable scaling from single instances to global, load-balanced cloud computing.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google_Compute_Engine_logo.png",
+			"humanURL": "https://cloud.google.com/compute/",
+			"baseURL": "://www.googleapis.com//compute/v1/projects",
+			"tags": "Addresses",
+			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/apipeopleidremoveaddressaddressid-put-openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/google-compute-engine/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "HitBTC",
+			"x-api-slug": "hitbtc",
+			"description": "We bring cutting-edge technology to the Bitcoin ecosystem!    Hitbtc provides an excellent trading terminal based on professional trading software which is suitable for new and sophisticated users.    As one of our valued customers, we understand how i...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/hitbtc-logo.png",
+			"humanURL": "https://hitbtc.com",
+			"baseURL": "https:////api/2",
+			"tags": "Addresses",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/hitbtc/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Lykke",
+			"x-api-slug": "lykke",
+			"description": "Lykke is a movement to build one global marketplace that is a level playing field where everyone has access.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg",
+			"humanURL": "https://lykke.com",
+			"baseURL": "https:////",
+			"tags": "Addresses",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/lykke/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Neblio",
+			"x-api-slug": "neblio",
+			"description": "Neblio was born out of the need for simple and intuitive tools and solutions to drive the adoption of blockchain technology in the enterprise space. We are working on tools, services, and APIs that will simplify and revolutionize the way that businesses deploy next-generation applications on the Neblio Blockchain Platform.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26754-neblio.jpg",
+			"humanURL": "https://nebl.io",
+			"baseURL": "https://ntp1node.nebl.io//",
+			"tags": "Addresses",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/neblio/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Blockchain",
+			"x-api-slug": "blockchain",
+			"description": "With the largest bitcoin wallet platform in the world, Blockchains software has powered over 100M transactions and empowered users in 130 countries across the globe to transact quickly and without costly intermediaries. We also offers tools for develo...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28138-blockchain-info.jpg",
+			"humanURL": "https://blockchain.info",
+			"baseURL": "https:///",
+			"tags": "Addresses",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/blockchain/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Avaza",
+			"x-api-slug": "avaza",
+			"description": "Avaza is a beautiful online software suite with modules for Project Management, Timesheets, Expenses &amp; Invoicing. Access from anywhere, with any device. Avaza is the leading all-in-one software for running client focused businesses. Avaza allows businesses of all sizes to more easily and effectively manage team projects, time tracking, expense reporting, quoting &amp; invoicing. It can be accessed simply via a web browser from anywhere in the world on any device.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28373-avaza.jpg",
+			"humanURL": "https://www.avaza.com",
+			"baseURL": "https:///",
+			"tags": "Addresses",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/avaza/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "PayRun",
+			"x-api-slug": "payrun",
+			"description": "An open, scalable, transparent and HMRC accredited payroll API. Put the power of payroll into your application today.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28484-payrun-io.jpg",
+			"humanURL": "http://www.payrun.io",
+			"baseURL": "https://api.test.payrun.io//",
+			"tags": "Addresses",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/payrun/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Ship Station",
+			"x-api-slug": "ship-station",
+			"description": "ShipStation is a web-based shipping solution that streamlines the order fulfillment process for your online business. ShipStation consolidates orders from over 70 ecommerce channels, creates shipping labels, packing slips, and pick lists in batch, communicates tracking information to your customers, provides endless automation, filters, and views, wireless printing, a mobile app, and a lot more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/ShipStation-stacked-blue.png",
+			"humanURL": "http://bit.ly/_ShipStation",
+			"baseURL": "https://ssapi.shipstation.com//",
+			"tags": "Addresses",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/ship-station/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "EU VAT API",
+			"x-api-slug": "eu-vat-api",
+			"description": "A developer friendly API to help your business achieve VAT compliance. Are you selling digital services to other EU countries? From Jan 1st 2015 changes to the VAT place of supply are coming into effect. One acceptable way to prove where your customer resides is their IP address. We have removed the headache and cost of you having to geo locate your customers IP address, and workout what VAT rate they should be charged. Simply pass your customers IP address from your application to our API and well return a JSON or XML object of all the current EU VAT rates for that country, or if you already know their country you can lookup the rates from the 2 digit country code.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/vatapi-logo.png",
+			"humanURL": "http://vatapi.com",
+			"baseURL": "https://vatapi.com//v1",
+			"tags": "Addresses",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/eu-vat-api/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "ParetoNetwork",
+			"x-api-slug": "paretonetwork",
+			"description": "A peer-to-peer financial content market place using the Ethereum distributed ledger technology. Current, reputable &amp; actionable intel for digital currency traders and investors.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28734-www-pareto-network.jpg",
+			"humanURL": "https://www.pareto.network",
+			"baseURL": "https:////",
+			"tags": "Addresses",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/paretonetwork/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Clover",
+			"x-api-slug": "clover",
+			"description": "Clover, a First Data company, builds the largest open-architecture point of sale solution aimed at small &amp; medium sized business owners. Our products are changing the consumer/merchant experience for the better, opening avenues for seamless customer-merchant interactions. There are five versions of Clover, including the Clover Station, Clover Mobile, Clover Mini, Clover Go, and Clover Flex. With Clover, First Data is aiming to create the largest open architecture operating system for commerce-enabling solutions and applications for business owners.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png",
+			"humanURL": "https://www.clover.com",
+			"baseURL": "https:///merchants/https://api.clover.com",
+			"tags": "Addresses",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/clover/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "CoinFabrik",
+			"x-api-slug": "coinfabrik",
+			"description": "Our smart contract development and full stack blockchain development services are supported by more than 20 years of experience building and reviewing secure applications. CoinFabrik is a full stack blockchain development company. Our expertise range from extending cryptocurrency nodes like Bitcoin and Ethereum to providing high level APIs and UIs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/coinfabrik.png",
+			"humanURL": "https://www.coinfabrik.com",
+			"baseURL": "https://api.coinbase.com//v2",
+			"tags": "Addresses",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/coinfabrik/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "ATTOM",
+			"x-api-slug": "attom",
+			"description": "Search public property records including real estate data: sale, ownership, tax, and more - for more than 150 million U.S. properties. ATTOM Data Solutions is the curator of ATTOM, a multi-sourced national property data warehouse that contains tax, deed, mortgage, foreclosure, environmental risk, natural hazard, health hazard, neighborhood characteristic and property characteristic data for over 155 million U.S. properties, delivering actionable data to clients and powering consumer websites owned by ATTOM Data Solutions: RealtyTrac.com, Homefacts.com, and HomeDisclosure.com.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28881-api-developer-attomdata-com.jpg",
+			"humanURL": "https://api.developer.attomdata.com",
+			"baseURL": "https://search.onboard-apis.com//communityapi/v2.0.0",
+			"tags": "Addresses",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/attom/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Plentymarkets",
+			"x-api-slug": "plentymarkets",
+			"description": "plentymarkets is an all-in-one e-commerce ERP solution, which combines a comprehensive stock management system with a versatile shop system and effortless multichannel sales. Thanks to comprehensive functions and interfaces that include all steps of the e-commerce value chain, you can use the cloud based software to completely automate all of your e-business processes as well as your companys own individual processes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png",
+			"humanURL": "http://www.plentymarkets.co.uk",
+			"baseURL": "https://example.com//",
+			"tags": "Addresses",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/plentymarkets/openapi.md"
 				}
 			]
 		},
@@ -946,59 +671,199 @@
 			"name": "Dezrez",
 			"x-api-slug": "dezrez",
 			"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
-			"image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28888-www-dezrez-com.jpg",
-			"humanURL": "https:\/\/www.dezrez.com",
-			"baseURL": "https:\/\/api.dezrez.com\/\/",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg",
+			"humanURL": "https://www.dezrez.com",
+			"baseURL": "https://api.dezrez.com//",
 			"tags": "Addresses",
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https:\/\/raw.githubusercontent.com\/streamdata-gallery-topics\/addresses\/master\/_listings\/dezrez\/openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/dezrez/openapi.md"
 				}
 			]
 		}
 	],
-	"x-common": [
-		{
-			"type": "x-github",
-			"url": "https:\/\/github.com\/dezrez"
-		},
-		{
-			"type": "x-openapi",
-			"url": "https:\/\/api.dezrez.com:443\/swagger\/docs\/v1"
-		},
-		{
-			"type": "x-api-gallery",
-			"url": "http:\/\/datumbox.api.gallery.streamdata.io"
-		},
-		{
-			"type": "x-api-stack",
-			"url": "http:\/\/dezrez.stack.network"
-		},
-		{
-			"type": "x-documentation",
-			"url": "https:\/\/api.dezrez.com\/swagger\/ui\/index#!\/AccountingExport"
-		},
-		{
-			"type": "x-support",
-			"url": "https:\/\/www.dezrez.com\/uk\/estate-agency-software-support"
-		},
-		{
-			"type": "x-twitter",
-			"url": "https:\/\/twitter.com\/dezrezsoftware"
-		},
-		{
-			"type": "x-website",
-			"url": "https:\/\/www.dezrez.com"
-		}
-	],
+	"tags": "Addresses",
 	"include": [
-	],
-	"maintainers": [
 		{
-			"FN": "Kin Lane",
-			"x-twitter": "apievangelist",
-			"email": "info@apievangelist.com"
+			"name": "SendGrid",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/sendgrid/apis.yaml"
+		},
+		{
+			"name": "Twilio",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/twilio/apis.yaml"
+		},
+		{
+			"name": "Reverb",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/reverb/apis.yaml"
+		},
+		{
+			"name": "AT&T Dev Program",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/att-dev-program/apis.yaml"
+		},
+		{
+			"name": "Context.IO",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/context-io/apis.yaml"
+		},
+		{
+			"name": "Etsy",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/etsy/apis.yaml"
+		},
+		{
+			"name": "FullContact",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/fullcontact/apis.yaml"
+		},
+		{
+			"name": "PayPal",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/paypal/apis.yaml"
+		},
+		{
+			"name": "Tropo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tropo/apis.yaml"
+		},
+		{
+			"name": "MasterCard",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/mastercard/apis.yaml"
+		},
+		{
+			"name": "Postcode Anywhere",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/postcode-anywhere/apis.yaml"
+		},
+		{
+			"name": "Service Objects",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/service-objects/apis.yaml"
+		},
+		{
+			"name": "SmartyStreets",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/smartystreets/apis.yaml"
+		},
+		{
+			"name": "SmartyStreets",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/smartystreets/apis.yaml"
+		},
+		{
+			"name": "Atlassian",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/atlassian/apis.yaml"
+		},
+		{
+			"name": "Instructure",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/instructure/apis.yaml"
+		},
+		{
+			"name": "T2A API",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/t2a-api/apis.yaml"
+		},
+		{
+			"name": "Philly Address Live",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/philly-address-live/apis.yaml"
+		},
+		{
+			"name": "University of Southern California",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/university-of-southern-california/apis.yaml"
+		},
+		{
+			"name": "OpenStreetMap",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/openstreetmap/apis.yaml"
+		},
+		{
+			"name": "moltin",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/moltin/apis.yaml"
+		},
+		{
+			"name": "Taxamo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/taxamo/apis.yaml"
+		},
+		{
+			"name": "TigerText",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/tigertext/apis.yaml"
+		},
+		{
+			"name": "Shopify",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/shopify/apis.yaml"
+		},
+		{
+			"name": "VictorOps",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/victorops/apis.yaml"
+		},
+		{
+			"name": "HERE",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/here/apis.yaml"
+		},
+		{
+			"name": "AWS Snowball",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-snowball/apis.yaml"
+		},
+		{
+			"name": "AWS Simple Email Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-simple-email-service/apis.yaml"
+		},
+		{
+			"name": "AWS EC2",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-ec2/apis.yaml"
+		},
+		{
+			"name": "AWS Route 53",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/aws-route-53/apis.yaml"
+		},
+		{
+			"name": "Google Compute Engine",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/google-compute-engine/apis.yaml"
+		},
+		{
+			"name": "HitBTC",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/hitbtc/apis.yaml"
+		},
+		{
+			"name": "Lykke",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/lykke/apis.yaml"
+		},
+		{
+			"name": "Neblio",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/neblio/apis.yaml"
+		},
+		{
+			"name": "Blockchain",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/blockchain/apis.yaml"
+		},
+		{
+			"name": "Avaza",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/avaza/apis.yaml"
+		},
+		{
+			"name": "PayRun",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/payrun/apis.yaml"
+		},
+		{
+			"name": "Ship Station",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/ship-station/apis.yaml"
+		},
+		{
+			"name": "EU VAT API",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/eu-vat-api/apis.yaml"
+		},
+		{
+			"name": "ParetoNetwork",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/paretonetwork/apis.yaml"
+		},
+		{
+			"name": "Clover",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/clover/apis.yaml"
+		},
+		{
+			"name": "CoinFabrik",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/coinfabrik/apis.yaml"
+		},
+		{
+			"name": "ATTOM",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/attom/apis.yaml"
+		},
+		{
+			"name": "Plentymarkets",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/plentymarkets/apis.yaml"
+		},
+		{
+			"name": "Dezrez",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/addresses/master/_listings/dezrez/apis.yaml"
 		}
 	]
 }
